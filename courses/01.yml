@@ -1,0 +1,246 @@
+id: c1
+slug: digital-parenting-foundations
+title: "Digital Parenting Foundations"
+subtitle: "Helping Your Child Build Healthy Screen Habits"
+persona: parent
+level: intro
+estimated_duration_hours: 3.0
+
+goals:
+  - "Help parents understand why screens are attractive to children."
+  - "Distinguish normal friction from more worrying patterns."
+  - "Create clear, realistic family screen rules and routines."
+  - "Reduce conflict, guilt, and power struggles around screens."
+  - "Build long-term digital resilience and autonomy for children."
+
+intended_outcomes:
+  - "Parent can describe key reasons why their child seeks screens."
+  - "Parent can list at least three worrying signs for screen overuse."
+  - "Parent has a written Family Screen Plan."
+  - "Parent uses calmer and clearer language when stopping screen time."
+  - "Parent supports gradual self-regulation of screens in tweens and teens."
+
+gamification:
+  badges:
+    - module_id: c1-m1
+      code: "observer"
+      label: "Observer"
+      description: "Completed Module 1 and observed family screen habits for 3 days."
+    - module_id: c1-m2
+      code: "architect"
+      label: "Architect"
+      description: "Designed a first version of the Family Screen Plan."
+    - module_id: c1-m3
+      code: "navigator"
+      label: "Navigator"
+      description: "Practiced calmer conflict responses around screen time."
+    - module_id: c1-m4
+      code: "guide"
+      label: "Guide"
+      description: "Created a long-term digital resilience plan for their child."
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: c1-m1
+    index: 1
+    title: "Understanding Your Child’s Relationship With Screens"
+    is_free_without_login: true
+    estimated_time_minutes: 40
+    xp:
+      reading: 60
+      exercises: 35
+      challenge: 15
+    summary: >
+      Learn why screens are so attractive to children, what is normal friction,
+      what is more worrying, and how your own screen history shapes your reactions.
+    lessons:
+      - id: c1-m1-l1
+        title: "Why Screens Are So Attractive"
+        summary: "Explore rewards, competence, social connection, and escape as key drivers."
+      - id: c1-m1-l2
+        title: "Normal Friction vs Worrying Signs"
+        summary: "Separate everyday complaints from patterns that require attention."
+      - id: c1-m1-l3
+        title: "Your Own Story With Screens"
+        summary: "See how your history and habits influence your parenting choices."
+      - id: c1-m1-l4
+        title: "Observation Challenge"
+        summary: "Observe screen moments and conflicts for 3 days without changing rules."
+    challenge:
+      id: c1-m1-ch1
+      title: "3-Day Observation"
+      description: >
+        For 3 days, simply observe when your child asks for screens, what happens
+        before and after, and how you respond. Record this on the printable sheet.
+
+  - id: c1-m2
+    index: 2
+    title: "Designing Family Rules and Routines"
+    is_free_without_login: false
+    estimated_time_minutes: 45
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Turn your observations into clear, age-appropriate family rules and daily
+      routines that protect sleep, school, and connection.
+    lessons:
+      - id: c1-m2-l1
+        title: "Non-Negotiables: Sleep, School, Meals"
+        summary: "Define protected zones where screens are always off."
+      - id: c1-m2-l2
+        title: "Daily Screen Budgets by Age"
+        summary: "Choose realistic daily limits for different ages."
+      - id: c1-m2-l3
+        title: "Building Rules Together"
+        summary: "Involve your child to increase buy-in and reduce resistance."
+      - id: c1-m2-l4
+        title: "Routines Instead of Constant Negotiation"
+        summary: "Create simple routines for mornings, after-school, and evenings."
+    challenge:
+      id: c1-m2-ch1
+      title: "First Family Screen Plan"
+      description: >
+        Draft your Family Screen Plan using the printable template and test it
+        for one week with your child.
+
+  - id: c1-m3
+    index: 3
+    title: "Handling Resistance, Conflicts, and Guilt"
+    is_free_without_login: false
+    estimated_time_minutes: 45
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Learn to manage strong reactions from your child, respond calmly, and deal
+      with your own feelings of guilt or fear.
+    lessons:
+      - id: c1-m3-l1
+        title: "Understanding Emotional Reactions"
+        summary: "See what is behind anger, refusal, and bargaining during screen limits."
+      - id: c1-m3-l2
+        title: "Calm and Firm Communication Scripts"
+        summary: "Use simple sentences to hold limits while staying connected."
+      - id: c1-m3-l3
+        title: "Consequences That Teach"
+        summary: "Use consequences that are predictable, fair, and focused on learning."
+      - id: c1-m3-l4
+        title: "Working With Your Own Guilt"
+        summary: "Notice and soften self-blame while staying responsible."
+    challenge:
+      id: c1-m3-ch1
+      title: "Calm Limit Experiment"
+      description: >
+        For 5 days, choose one screen limit per day and apply it with one of the
+        calm scripts. Note what changed in your child and in you.
+
+  - id: c1-m4
+    index: 4
+    title: "Long-Term Digital Resilience and Autonomy"
+    is_free_without_login: false
+    estimated_time_minutes: 45
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Help your child understand the online world, listen to their own signals,
+      and build healthy, autonomous screen habits over time.
+    lessons:
+      - id: c1-m4-l1
+        title: "Explaining Apps and Algorithms"
+        summary: "Explain recommendations and infinite scroll in simple language."
+      - id: c1-m4-l2
+        title: "Noticing Body and Emotion Signals"
+        summary: "Teach your child to check how they feel during and after screen use."
+      - id: c1-m4-l3
+        title: "Creative and Learning Uses"
+        summary: "Encourage creation, learning, and contribution through screens."
+      - id: c1-m4-l4
+        title: "Planning Progressive Autonomy"
+        summary: "Prepare tweens and teens for more freedom and responsibility."
+    challenge:
+      id: c1-m4-ch1
+      title: "Healthy Screen Plan With Your Child"
+      description: >
+        Create a written Healthy Screen Plan with your child for the next three
+        months, including positive uses and limits.
+
+resources:
+  pocket_aid_default_set_id: "P1"
+  slide_deck_pdf_url: null
+  slide_deck_gamma_job_id: null
+  last_slides_generated_at: null
+
+gamma_prompt:
+  course_overview: |
+    Create a complete slide deck for the course
+    "Digital Parenting Foundations: Helping Your Child Build Healthy Screen Habits"
+    on the CuroSee platform.
+
+    Audience:
+    - Parents of children aged roughly 5–15.
+    - They feel worried, guilty, or overwhelmed about screen time at home.
+    - They are not clinicians or tech experts.
+
+    Goals of the deck:
+    - Provide a visual overview of the full course (4 modules).
+    - Help parents feel understood and less alone.
+    - Show key ideas and tools from each module in a clear and calm way.
+    - Encourage them to continue through the modules and to print the worksheets.
+
+    Tone:
+    - Warm, non-judgmental, practical.
+    - Avoid fear-based language.
+    - Focus on balance, not demonizing technology.
+
+    Structure (suggested slides):
+
+    1. Title slide:
+       - "Digital Parenting Foundations"
+       - Subtitle: "Helping Your Child Build Healthy Screen Habits"
+       - Mention: "CuroSee – Digital Wellness"
+
+    2–3. Problem & empathy:
+       - Common feelings: chaos, guilt, conflict, fear of harm.
+       - Acknowledge that screens are part of modern life.
+
+    4–6. Module 1 overview: Understanding your child’s relationship with screens
+       - Why screens are attractive: rewards, competence, social connection, escape.
+       - Normal friction vs worrying patterns.
+       - Your own history with screens.
+       - Key exercise: 3-day observation.
+
+    7–9. Module 2 overview: Designing family rules and routines
+       - Protected zones for sleep, school, meals.
+       - Age-appropriate daily screen budgets.
+       - Building rules together with your child.
+       - Key tool: Family Screen Plan.
+
+    10–12. Module 3 overview: Handling resistance, conflicts, and guilt
+       - Understanding emotional reactions.
+       - Calm and firm scripts for limits.
+       - Consequences that teach instead of humiliate.
+       - Caring for your own guilt and fear.
+
+    13–15. Module 4 overview: Long-term digital resilience and autonomy
+       - Explaining online systems in simple terms.
+       - Teaching children to notice body and emotion signals.
+       - Encouraging creative and learning uses.
+       - Planning gradual autonomy for tweens and teens.
+
+    16–17. Practical elements
+       - Mention printable worksheets and pocket aids.
+       - Encourage small, realistic experiments rather than perfection.
+
+    Design guidelines:
+    - Calm, soft colors with good contrast for printing.
+    - Minimal text per slide; use bullet points.
+    - Use simple icons for family, clocks, moon/sleep, dialogue bubbles.
+    - Avoid dense charts; prefer simple diagrams or two-column comparisons.
