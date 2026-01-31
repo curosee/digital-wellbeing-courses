@@ -1,0 +1,243 @@
+id: c5
+slug: supporting-partner-screen-overuse
+title: "Supporting a Partner With Screen Overuse (Without Becoming the Screen Police)"
+subtitle: "Connection, Boundaries, and Small Repair Steps"
+persona: supporter
+level: intro
+estimated_duration_hours: 2.5
+
+goals:
+  - "Help partners understand what screens may provide to their partner."
+  - "Teach calm ways to raise the topic and repair disconnection."
+  - "Clarify relationship boundaries and shared agreements."
+  - "Offer guidance on when to encourage extra support."
+
+intended_outcomes:
+  - "Supporter can name possible needs screens meet for their partner."
+  - "Supporter can initiate one calm, connection-focused conversation."
+  - "Supporter can state one clear relationship boundary or agreement."
+  - "Supporter can identify signals that more help may be needed."
+
+gamification:
+  badges:
+    - module_id: c5-m1
+      code: "empathy_reader"
+      label: "Empathy Reader"
+      description: "Reflected on what screens may be doing to and for their partner."
+    - module_id: c5-m2
+      code: "repair_starter"
+      label: "Repair Starter"
+      description: "Practiced initiating a calm, connection-first conversation."
+    - module_id: c5-m3
+      code: "boundary_partner"
+      label: "Boundary Partner"
+      description: "Defined a relationship boundary or shared agreement."
+    - module_id: c5-m4
+      code: "support_pathfinder"
+      label: "Support Pathfinder"
+      description: "Mapped options for additional help and support."
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: c5-m1
+    index: 1
+    title: "Understanding Your Partner's Screen World"
+    is_free_without_login: true
+    estimated_time_minutes: 35
+    xp:
+      reading: 60
+      exercises: 35
+      challenge: 15
+    summary: >
+      Shift from only seeing the problem to understanding what screens may be
+      providing, while honoring your experience of the relationship.
+    lessons:
+      - id: c5-m1-l1
+        title: "What You Experience vs What They Experience"
+        summary: "Compare your lived experience with what your partner might be feeling."
+      - id: c5-m1-l2
+        title: "Needs Screens May Be Meeting"
+        summary: "Explore escape, achievement, belonging, and comfort as possible needs."
+      - id: c5-m1-l3
+        title: "Care vs Control"
+        summary: "Distinguish supporting your partner from trying to manage them."
+      - id: c5-m1-l4
+        title: "Your Relationship Matters Too"
+        summary: "Acknowledge loneliness, resentment, or distance without guilt."
+    challenge:
+      id: c5-m1-ch1
+      title: "Two-Column Perspective"
+      description: >
+        Write two lists: what screens might be doing to your partner and what they
+        might be doing for them.
+
+  - id: c5-m2
+    index: 2
+    title: "Conversations That Repair Connection"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Learn how to choose timing, open with care, and listen in ways that reduce
+      defensiveness and rebuild connection.
+    lessons:
+      - id: c5-m2-l1
+        title: "Right Moment, Right Tone"
+        summary: "Choose low-stress timing and keep your tone soft."
+      - id: c5-m2-l2
+        title: "Connection-First Openers"
+        summary: 'Use "I" statements and appreciation before concerns.'
+      - id: c5-m2-l3
+        title: "Listening for What Matters"
+        summary: "Reflect back needs, not just words."
+      - id: c5-m2-l4
+        title: "Patterns That Escalate"
+        summary: "Avoid sarcasm, scorekeeping, and urgent ultimatums."
+    challenge:
+      id: c5-m2-ch1
+      title: "One Repair Conversation"
+      description: >
+        Plan and have one short conversation that starts with connection and ends
+        with one small request.
+
+  - id: c5-m3
+    index: 3
+    title: "Agreements, Boundaries, and Self-Respect"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Clarify what you need in the relationship, set limits, and build shared
+      agreements that protect both partners.
+    lessons:
+      - id: c5-m3-l1
+        title: "Boundary vs Rule"
+        summary: "Keep limits about your actions, not controlling theirs."
+      - id: c5-m3-l2
+        title: "Deciding What You Need"
+        summary: "Identify needs around time, presence, and attention."
+      - id: c5-m3-l3
+        title: "Making Shared Agreements"
+        summary: "Create small, realistic agreements you both can keep."
+      - id: c5-m3-l4
+        title: "Protecting Your Own Routines"
+        summary: "Build habits that keep your life balanced."
+    challenge:
+      id: c5-m3-ch1
+      title: "One Clear Agreement"
+      description: >
+        Draft one shared agreement or boundary, state it calmly, and revisit it
+        after a week.
+
+  - id: c5-m4
+    index: 4
+    title: "When to Encourage More Support"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Recognize signs that more support may be needed, learn how to raise the
+      topic, and decide what help you might need yourself.
+    lessons:
+      - id: c5-m4-l1
+        title: "Signals That Something Bigger Is Going On"
+        summary: "Identify patterns that may call for extra support."
+      - id: c5-m4-l2
+        title: "How to Suggest Help"
+        summary: "Offer options without shaming or diagnosing."
+      - id: c5-m4-l3
+        title: "Support Options Map"
+        summary: "List possible resources: trusted people, professional, community."
+      - id: c5-m4-l4
+        title: "Your Own Support"
+        summary: "Choose ways to protect your own wellbeing."
+    challenge:
+      id: c5-m4-ch1
+      title: "Support Circle Plan"
+      description: >
+        Write three support options for your partner and one support option for
+        yourself, then choose a next step.
+
+resources:
+  pocket_aid_default_set_id: "H2"
+  slide_deck_pdf_url: null
+  slide_deck_gamma_job_id: null
+  last_slides_generated_at: null
+
+gamma_prompt:
+  course_overview: |
+    Create a complete slide deck for the course
+    "Supporting a Partner With Screen Overuse (Without Becoming the Screen Police)"
+    on the CuroSee platform.
+
+    Audience:
+    - Partners of someone who spends a lot of time on screens.
+    - They feel lonely, frustrated, or disconnected and want to reconnect.
+    - They are not clinicians and are not trying to diagnose.
+
+    Goals of the deck:
+    - Help partners understand their loved one's screen use in a nuanced way.
+    - Share connection-first conversation and boundary tools.
+    - Provide a calm overview of the four modules.
+    - Encourage self-care and realistic expectations.
+
+    Tone:
+    - Warm, steady, and respectful.
+    - Clear, simple, and supportive.
+    - Avoid blame, pathologizing, or dramatic language.
+
+    Structure (suggested slides):
+
+    1. Title slide:
+       - "Supporting a Partner With Screen Overuse (Without Becoming the Screen Police)"
+       - Subtitle: "Connection, Boundaries, and Small Repair Steps"
+       - Mention: "CuroSee – Digital Wellness"
+
+    2–3. Problem & empathy:
+       - Common experiences: feeling ignored, bedtime distance, muted intimacy.
+       - Mixed feelings: care, frustration, worry, sadness.
+
+    4–6. Module 1 overview: Understanding Your Partner's Screen World
+       - "What you experience" vs "what they may experience".
+       - Needs screens may be meeting: escape, achievement, belonging, comfort.
+       - Care vs control.
+       - Validating your own feelings in the relationship.
+
+    7–9. Module 2 overview: Conversations That Repair Connection
+       - Choose low-stress timing and softer tone.
+       - Connection-first openers.
+       - Listening for what matters.
+       - Avoid escalation patterns.
+
+    10–12. Module 3 overview: Agreements, Boundaries, and Self-Respect
+       - Boundary vs rule.
+       - Deciding what you need.
+       - Making shared agreements.
+       - Protecting your routines.
+
+    13–15. Module 4 overview: When to Encourage More Support
+       - Signals that more support may be needed.
+       - How to suggest help.
+       - Support options map.
+       - Caring for yourself.
+
+    16–17. Practical elements
+       - Mention printable reflection sheets and pocket aids for partners.
+       - Emphasize that you cannot control outcomes, but can care wisely.
+
+    Design guidelines:
+    - Warm, relational visuals (partners talking, reconnection moments, small rituals).
+    - Minimal text per slide, simple bullets, lots of white space.
+    - Avoid clinical jargon; keep language human and accessible.
