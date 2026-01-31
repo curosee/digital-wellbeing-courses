@@ -1,0 +1,243 @@
+id: c4
+slug: supporting-friend-screen-overuse
+title: "Supporting a Friend With Screen Overuse (Without Becoming Their Coach)"
+subtitle: "Empathy, Boundaries, and Small Steps"
+persona: supporter
+level: intro
+estimated_duration_hours: 2.5
+
+goals:
+  - "Help friends understand what screens may provide to their friend."
+  - "Teach low-pressure ways to start conversations."
+  - "Clarify friendship boundaries and self-care."
+  - "Offer guidance on when to encourage extra support."
+
+intended_outcomes:
+  - "Supporter can name possible needs screens meet for their friend."
+  - "Supporter can initiate one calm, low-stakes check-in."
+  - "Supporter can set one clear friendship boundary."
+  - "Supporter can identify signals that more help may be needed."
+
+gamification:
+  badges:
+    - module_id: c4-m1
+      code: "context_finder"
+      label: "Context Finder"
+      description: "Reflected on what screens may be doing to and for their friend."
+    - module_id: c4-m2
+      code: "gentle_starter"
+      label: "Gentle Starter"
+      description: "Practiced initiating a low-pressure conversation."
+    - module_id: c4-m3
+      code: "steady_friend"
+      label: "Steady Friend"
+      description: "Defined a friendship boundary and a self-care plan."
+    - module_id: c4-m4
+      code: "support_scout"
+      label: "Support Scout"
+      description: "Mapped options for additional help and support."
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: c4-m1
+    index: 1
+    title: "Understanding Your Friend's Screen World"
+    is_free_without_login: true
+    estimated_time_minutes: 35
+    xp:
+      reading: 60
+      exercises: 35
+      challenge: 15
+    summary: >
+      Shift from only seeing the problem to understanding what screens may be
+      providing, while honoring your own experience of the friendship.
+    lessons:
+      - id: c4-m1-l1
+        title: "What You Notice vs What They Experience"
+        summary: "Compare your observations with what your friend might be feeling."
+      - id: c4-m1-l2
+        title: "Needs Screens May Be Meeting"
+        summary: "Explore escape, achievement, belonging, and comfort as possible needs."
+      - id: c4-m1-l3
+        title: "Care vs Fixing"
+        summary: "Distinguish supporting a friend from trying to manage them."
+      - id: c4-m1-l4
+        title: "Your Friendship Matters Too"
+        summary: "Acknowledge grief, frustration, or distance without guilt."
+    challenge:
+      id: c4-m1-ch1
+      title: "Two-Column Reality Check"
+      description: >
+        Write two lists: what screens might be doing to your friend and what they
+        might be doing for them.
+
+  - id: c4-m2
+    index: 2
+    title: "Conversations That Stay Light and Honest"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Learn how to choose timing, invite honest talk, and listen without turning
+      the friendship into a project.
+    lessons:
+      - id: c4-m2-l1
+        title: "Right Moment, Right Mood"
+        summary: "Pick low-stress times that reduce defensiveness."
+      - id: c4-m2-l2
+        title: "Gentle Openers"
+        summary: "Use curiosity and care instead of pressure or blame."
+      - id: c4-m2-l3
+        title: "Listening Without Fixing"
+        summary: "Reflect, pause, and ask open questions."
+      - id: c4-m2-l4
+        title: "Common Friendship Traps"
+        summary: "Avoid nagging, jokes that sting, or public call-outs."
+    challenge:
+      id: c4-m2-ch1
+      title: "One Low-Stakes Check-In"
+      description: >
+        Plan one short check-in using a gentle script and note what felt more
+        connected than before.
+
+  - id: c4-m3
+    index: 3
+    title: "Friendship Boundaries and Self-Respect"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Clarify what you can offer as a friend and what you cannot, and protect
+      your own time and energy.
+    lessons:
+      - id: c4-m3-l1
+        title: "Boundary vs Ultimatum"
+        summary: "Keep limits about your actions, not demands about theirs."
+      - id: c4-m3-l2
+        title: "Deciding What You Can Offer"
+        summary: "Identify what support you can sustainably give."
+      - id: c4-m3-l3
+        title: "Saying No Without Guilt"
+        summary: "Use clear, brief language and stay kind."
+      - id: c4-m3-l4
+        title: "Protecting Your Own Routines"
+        summary: "Build habits that keep your life balanced."
+    challenge:
+      id: c4-m3-ch1
+      title: "One Clear Boundary"
+      description: >
+        Define one boundary (time, talk topics, availability) and communicate it
+        kindly but firmly.
+
+  - id: c4-m4
+    index: 4
+    title: "When to Encourage More Support"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp:
+      reading: 60
+      exercises: 40
+      challenge: 15
+    summary: >
+      Recognize signs that more support may be needed, learn how to raise the
+      topic, and decide what help you might need yourself.
+    lessons:
+      - id: c4-m4-l1
+        title: "Signals That Something Bigger Is Going On"
+        summary: "Identify patterns that may call for extra support."
+      - id: c4-m4-l2
+        title: "How to Suggest Help"
+        summary: "Offer options without shaming or diagnosing."
+      - id: c4-m4-l3
+        title: "Support Options Map"
+        summary: "List possible resources: trusted people, professional, community."
+      - id: c4-m4-l4
+        title: "Your Own Support"
+        summary: "Choose ways to protect your own wellbeing."
+    challenge:
+      id: c4-m4-ch1
+      title: "Support Circle Plan"
+      description: >
+        Write three support options for your friend and one support option for
+        yourself, then choose a next step.
+
+resources:
+  pocket_aid_default_set_id: "H2"
+  slide_deck_pdf_url: null
+  slide_deck_gamma_job_id: null
+  last_slides_generated_at: null
+
+gamma_prompt:
+  course_overview: |
+    Create a complete slide deck for the course
+    "Supporting a Friend With Screen Overuse (Without Becoming Their Coach)"
+    on the CuroSee platform.
+
+    Audience:
+    - Friends of someone who spends a lot of time on screens.
+    - They feel worried, ignored, or distant and want to help without nagging.
+    - They are not clinicians and are not trying to diagnose.
+
+    Goals of the deck:
+    - Help friends understand their loved one's screen use in a nuanced way.
+    - Share light-touch conversation and boundary tools.
+    - Provide a calm overview of the four modules.
+    - Encourage self-care and realistic expectations.
+
+    Tone:
+    - Warm, friendly, and respectful.
+    - Clear, simple, and supportive.
+    - Avoid blame, pathologizing, or dramatic language.
+
+    Structure (suggested slides):
+
+    1. Title slide:
+       - "Supporting a Friend With Screen Overuse (Without Becoming Their Coach)"
+       - Subtitle: "Empathy, Boundaries, and Small Steps"
+       - Mention: "CuroSee – Digital Wellness"
+
+    2–3. Problem & empathy:
+       - Common experiences: distance, canceled plans, one-sided conversations.
+       - Mixed feelings: care, frustration, worry, awkwardness.
+
+    4–6. Module 1 overview: Understanding Your Friend's Screen World
+       - "What you notice" vs "what they may experience".
+       - Needs screens may be meeting: escape, achievement, belonging, comfort.
+       - Care vs fixing.
+       - Validating your own feelings as a friend.
+
+    7–9. Module 2 overview: Conversations That Stay Light and Honest
+       - Choose low-stress timing.
+       - Gentle openers and curiosity.
+       - Listening without fixing.
+       - Avoid public call-outs or jokes that sting.
+
+    10–12. Module 3 overview: Friendship Boundaries and Self-Respect
+       - Boundary vs ultimatum.
+       - Deciding what you can offer.
+       - Saying no without guilt.
+       - Protecting your routines.
+
+    13–15. Module 4 overview: When to Encourage More Support
+       - Signals that more support may be needed.
+       - How to suggest help.
+       - Support options map.
+       - Caring for yourself.
+
+    16–17. Practical elements
+       - Mention printable reflection sheets and pocket aids for friends.
+       - Emphasize that you cannot control outcomes, but can care wisely.
+
+    Design guidelines:
+    - Friendly, relational visuals (two friends talking, small check-ins, supportive gestures).
+    - Minimal text per slide, simple bullets, lots of white space.
+    - Avoid clinical jargon; keep language human and accessible.
