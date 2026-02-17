@@ -1,0 +1,156 @@
+id: "y1"
+slug: "your-phone-not-your-boss"
+title: "Your Phone Is Not Your Boss"
+subtitle: "Taking Back Control of Your Screen Life"
+persona: "youth"
+level: "foundations"
+estimated_duration_hours: 2.5
+
+goals:
+  - "Understand how phones and apps are designed to keep you hooked"
+  - "Learn the brain science behind why scrolling feels impossible to stop"
+  - "Recognize the real costs of unchecked screen habits on your life"
+  - "Complete a 7-day experiment to start building healthier screen habits"
+
+intended_outcomes:
+  - "You can identify the specific design tricks apps use to keep you scrolling"
+  - "You understand the role of dopamine and your developing brain in screen habits"
+  - "You have an honest picture of what your screen time is actually costing you"
+  - "You have completed a week-long screen habit experiment and reflected on the results"
+
+gamification:
+  badges:
+    - module_id: "y1-m1"
+      code: "truth-seeker"
+      label: "Truth Seeker"
+      description: "Completed The Truth About Your Phone and tracked your real screen habits"
+    - module_id: "y1-m2"
+      code: "brain-hacker"
+      label: "Brain Hacker"
+      description: "Learned the neuroscience behind screen habits and identified your personal triggers"
+    - module_id: "y1-m3"
+      code: "reality-check"
+      label: "Reality Check"
+      description: "Faced the real costs of screen habits and calculated your own screen time trade-offs"
+    - module_id: "y1-m4"
+      code: "freedom-taster"
+      label: "Freedom Taster"
+      description: "Completed the 7-Day Experiment and reflected on what changed"
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: "y1-m1"
+    index: 1
+    title: "The Truth About Your Phone"
+    is_free_without_login: true
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "What is really happening when you scroll. How apps are built to hook you. Why knowing the truth is the first step to taking back control."
+    lessons:
+      - id: "y1-m1-l1"
+        title: "You Are Not Alone (and You Are Not Weak)"
+        summary: "Almost half of teens say they feel addicted to their devices. This is not a you problem. It is a design problem."
+      - id: "y1-m1-l2"
+        title: "The Slot Machine in Your Pocket"
+        summary: "Pull-to-refresh, infinite scroll, autoplay. Your phone uses the same psychology as a casino. Here is how."
+      - id: "y1-m1-l3"
+        title: "Designed to Be Irresistible"
+        summary: "Notifications, streaks, red badges. Every detail of your favorite apps is engineered to keep you coming back."
+      - id: "y1-m1-l4"
+        title: "The Attention Economy"
+        summary: "Your attention is the product. Understanding who profits when you cannot look away."
+    challenge:
+      id: "y1-m1-ch1"
+      title: "The Screen Time Audit"
+      description: "Check your actual screen time stats right now. Write down the number. Then list the top 3 apps eating your time. No judgment. Just the facts."
+
+  - id: "y1-m2"
+    index: 2
+    title: "Your Brain on Screens"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp: 50
+    summary: "The science behind why your brain craves screens. Dopamine, FOMO, and why your age matters more than you think."
+    lessons:
+      - id: "y1-m2-l1"
+        title: "Dopamine: The Want Chemical"
+        summary: "Dopamine does not make you happy. It makes you want more. Understanding the loop that keeps you scrolling."
+      - id: "y1-m2-l2"
+        title: "Your Brain Is Still Under Construction"
+        summary: "Your prefrontal cortex is not fully developed until your mid-twenties. What that means for impulse control and screen habits."
+      - id: "y1-m2-l3"
+        title: "FOMO Is Real (and Engineered)"
+        summary: "Half of all teens experience FOMO. Social media makes it worse on purpose. Here is how to recognize it."
+      - id: "y1-m2-l4"
+        title: "The Attention Fragmentation Problem"
+        summary: "Constant switching between apps is training your brain to never focus deeply. The science of what that costs you."
+    challenge:
+      id: "y1-m2-ch1"
+      title: "Map Your Triggers"
+      description: "For 24 hours, notice every time you reach for your phone. Write down what triggered it: boredom, anxiety, habit, notification, or FOMO. Find your top 3 triggers."
+
+  - id: "y1-m3"
+    index: 3
+    title: "The Real Cost"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp: 50
+    summary: "What your screen habits are actually costing you in sleep, relationships, focus, and the life you are not living."
+    lessons:
+      - id: "y1-m3-l1"
+        title: "The Sleep Tax"
+        summary: "Screens before bed are destroying your sleep. The science of blue light, stimulation, and why you are tired all the time."
+      - id: "y1-m3-l2"
+        title: "The Friendship Illusion"
+        summary: "You have 500 followers but feel lonely. How screens can replace deep connection with shallow interaction."
+      - id: "y1-m3-l3"
+        title: "The Focus Drain"
+        summary: "Your grades, your creativity, your ability to think deeply. What constant distraction is doing to your potential."
+      - id: "y1-m3-l4"
+        title: "The Life You Are Not Living"
+        summary: "Add up your screen hours. Now imagine what you could do with that time. This is not about guilt. It is about choice."
+    challenge:
+      id: "y1-m3-ch1"
+      title: "The Time Trade Calculator"
+      description: "Take your average daily screen time and multiply it by 365. Calculate how many hours that is per year. Then list 3 things you wish you had more time for. What would it take to trade just 30 minutes a day?"
+
+  - id: "y1-m4"
+    index: 4
+    title: "The 7-Day Experiment"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "Your first hands-on experiment with changing your screen habits. Small changes, real results, no perfection required."
+    lessons:
+      - id: "y1-m4-l1"
+        title: "Why Experiments Beat Willpower"
+        summary: "Willpower is overrated. Experiments are smarter. How to set up a screen habit experiment that actually works."
+      - id: "y1-m4-l2"
+        title: "Your Experiment Toolkit"
+        summary: "Grayscale mode, app timers, phone stacking, notification detox. Pick the tools that fit your life."
+      - id: "y1-m4-l3"
+        title: "Days 1 through 7: Your Plan"
+        summary: "A day-by-day guide for your first week of intentional screen use. What to expect and how to handle the hard parts."
+      - id: "y1-m4-l4"
+        title: "Reflect and Level Up"
+        summary: "What did you learn? What surprised you? What will you keep doing? Building on your experiment for lasting change."
+    challenge:
+      id: "y1-m4-ch1"
+      title: "The 7-Day Screen Experiment"
+      description: "Choose one change from the toolkit and commit to it for 7 days. Journal briefly each day about what you notice. After 7 days, write a short reflection on what changed and what you want to do next."
+
+resources:
+  - title: "LOG OFF movement (founded by Emma Lembke)"
+    url: "https://www.logoffmovement.org"
+  - title: "Center for Humane Technology — Youth Resources"
+    url: "https://www.humanetech.com"
+  - title: "Pew Research Center — Teens, Social Media and Technology"
+    url: "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-and-technology-2024/"
+  - title: "Common Sense Media — Digital Wellness"
+    url: "https://www.commonsensemedia.org"
+
+gamma_prompt: >
+  Create a visually engaging presentation for teens and young adults (ages 13-25) about taking control of screen habits. Use bold, modern design with high-contrast colors. Include real statistics about teen screen use. Tone should be empowering and relatable — like a cool older sibling, not a parent lecture. Feature practical tools like grayscale mode, app timers, and phone stacking. Include a 7-day experiment framework. No scare tactics. No shame. Just real talk about phones, brains, and building a life you actually control.

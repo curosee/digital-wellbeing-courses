@@ -1,0 +1,201 @@
+id: s2
+slug: rewire-your-day
+title: "Rewire Your Day"
+subtitle: "Designing a Life That Doesn't Revolve Around Screens"
+persona: self
+level: intermediate
+estimated_duration_hours: 3.5
+goals:
+  - Design a morning routine that does not begin with screens
+  - Protect deep work and meaningful rest from digital interruption
+  - Apply friction engineering to reshape daily habits systematically
+  - Understand the relationship between screens, blue light, and sleep
+  - Build an intentional daily structure that puts screens in their proper place
+intended_outcomes:
+  - Participants have a screen-free morning routine they have tested for at least one week
+  - Participants can identify and protect blocks of deep work and genuine rest
+  - Participants have implemented at least three friction-based environment changes
+  - Participants have an evening wind-down routine that supports quality sleep
+  - Participants have a written Intentional Digital Life plan with specific daily structures
+
+gamification:
+  badges:
+    - module_id: s2-m1
+      code: morning-reclaimer
+      label: "Morning Reclaimer"
+      description: "Completed seven days of screen-free mornings"
+    - module_id: s2-m2
+      code: focus-guardian
+      label: "Focus Guardian"
+      description: "Protected a block of deep work from digital interruption for five consecutive days"
+    - module_id: s2-m3
+      code: friction-engineer
+      label: "Friction Engineer"
+      description: "Implemented three or more friction-based changes to your digital environment"
+    - module_id: s2-m4
+      code: sleep-protector
+      label: "Sleep Protector"
+      description: "Maintained a screen-free evening wind-down routine for seven nights"
+    - module_id: s2-m5
+      code: intentional-designer
+      label: "Intentional Designer"
+      description: "Created and tested your personal Intentional Digital Life plan"
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: s2-m1
+    index: 1
+    title: "Morning Rescue"
+    is_free_without_login: true
+    estimated_time_minutes: 40
+    xp: 50
+    summary: "Reclaiming the first hour of your day. You will learn why the morning phone check is so damaging, design a screen-free morning routine, and discover how the first hour shapes the rest of your day."
+    lessons:
+      - id: s2-m1-l1
+        title: "The Morning Hijack"
+        summary: "Why checking your phone first thing puts you in reactive mode for the rest of the day, and what the research says about morning screen exposure."
+      - id: s2-m1-l2
+        title: "What Your Brain Needs First"
+        summary: "The neuroscience of morning routines — cortisol, light exposure, and how to prime your brain for focus rather than distraction."
+      - id: s2-m1-l3
+        title: "Designing Your Screen-Free Morning"
+        summary: "Practical strategies for filling the first 60 minutes of your day with activities that energize and ground you."
+      - id: s2-m1-l4
+        title: "The Obstacle Plan"
+        summary: "Anticipating what will pull you back to your phone in the morning and building specific if-then strategies to stay on track."
+    challenge:
+      id: s2-m1-ch1
+      title: "Seven Screen-Free Mornings"
+      description: "Commit to not looking at your phone for the first 60 minutes after waking up for seven consecutive days. Use a physical alarm clock. Fill the time with a simple routine you design. Track each morning with a brief note: What did you do instead? How did the day feel different? At the end of seven days, reflect on what you noticed."
+
+  - id: s2-m2
+    index: 2
+    title: "The Focus Fortress"
+    is_free_without_login: false
+    estimated_time_minutes: 45
+    xp: 55
+    summary: "Protecting deep work and real rest. You will learn why constant connectivity fragments your attention, how to create protected time blocks, and the difference between real rest and screen rest."
+    lessons:
+      - id: s2-m2-l1
+        title: "The Attention Tax"
+        summary: "How every notification and context switch costs you cognitive resources, and why multitasking is a myth your brain pays for."
+      - id: s2-m2-l2
+        title: "Deep Work Blocks"
+        summary: "How to create protected periods of focused, uninterrupted work — and why even 30 minutes of real focus outperforms hours of fragmented effort."
+      - id: s2-m2-l3
+        title: "Real Rest vs. Screen Rest"
+        summary: "Why scrolling your phone during breaks is not actually resting your brain, and what genuine recovery looks like."
+      - id: s2-m2-l4
+        title: "The Boredom Dividend"
+        summary: "Why allowing yourself to be bored — without reaching for your phone — unlocks creativity, problem-solving, and emotional processing."
+      - id: s2-m2-l5
+        title: "Building Your Focus Fortress"
+        summary: "Putting it all together — creating a daily structure with protected focus time, real breaks, and intentional screen windows."
+    challenge:
+      id: s2-m2-ch1
+      title: "Five Days of Deep Focus"
+      description: "For five consecutive workdays, protect at least one 45-minute block of deep work. Phone in another room, notifications off, single task only. After each block, write one sentence about what you accomplished and how it felt. At the end, reflect on the difference between fragmented and focused work."
+
+  - id: s2-m3
+    index: 3
+    title: "Friction Engineering"
+    is_free_without_login: false
+    estimated_time_minutes: 45
+    xp: 55
+    summary: "Making bad habits hard and good habits easy. You will learn systematic approaches to redesigning your environment, apply habit stacking to build positive routines, and create a friction audit of your digital life."
+    lessons:
+      - id: s2-m3-l1
+        title: "The Friction Spectrum"
+        summary: "A systematic look at all the ways you can add friction to unwanted screen habits and remove friction from desired behaviors."
+      - id: s2-m3-l2
+        title: "Habit Stacking"
+        summary: "James Clear's technique for attaching new habits to existing ones — and how to use it to build screen-free routines without relying on motivation."
+      - id: s2-m3-l3
+        title: "Your Digital Environment Audit"
+        summary: "A room-by-room, device-by-device review of your digital environment to identify where screens have too much power and where friction is needed."
+      - id: s2-m3-l4
+        title: "Designing Your Defaults"
+        summary: "How to set up your phone, computer, and living spaces so the default option is always the healthier one."
+    challenge:
+      id: s2-m3-ch1
+      title: "The Friction Overhaul"
+      description: "Complete a full friction audit of your digital life. Implement at least three friction-based changes across your phone, computer, and physical spaces. Document each change and track its effect over one week. Share what worked best with a friend, family member, or fellow course participant."
+
+  - id: s2-m4
+    index: 4
+    title: "The Evening Wind-Down"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp: 50
+    summary: "Screens, sleep, and your sanity. You will learn how screens disrupt sleep through multiple pathways, design an evening wind-down routine, and discover that protecting your evenings transforms your days."
+    lessons:
+      - id: s2-m4-l1
+        title: "The Blue Light Problem"
+        summary: "How screen light interferes with melatonin production and circadian rhythms, and what the research actually says about blue light and sleep."
+      - id: s2-m4-l2
+        title: "Beyond Blue Light"
+        summary: "The other ways screens disrupt sleep — emotional arousal, cognitive stimulation, delayed bedtimes, and the expectation of staying connected."
+      - id: s2-m4-l3
+        title: "Your Evening Wind-Down Routine"
+        summary: "Designing the last 60 to 90 minutes of your day for calm, connection, and quality sleep."
+      - id: s2-m4-l4
+        title: "When You Slip"
+        summary: "What to do when you end up on your phone at midnight — self-compassion strategies and recovery techniques for the inevitable setback."
+    challenge:
+      id: s2-m4-ch1
+      title: "Seven Nights of Wind-Down"
+      description: "Design and follow an evening wind-down routine for seven consecutive nights. No screens for the last 60 minutes before bed. Track your sleep quality each morning with a simple rating (1-10) and one sentence about how you slept. At the end of seven nights, compare your sleep ratings to your normal baseline."
+
+  - id: s2-m5
+    index: 5
+    title: "Your Intentional Digital Life"
+    is_free_without_login: false
+    estimated_time_minutes: 50
+    xp: 60
+    summary: "Putting it all together. You will create a comprehensive daily structure that integrates everything you have learned — morning routines, focus blocks, friction engineering, evening wind-downs — into a sustainable plan for intentional screen use."
+    lessons:
+      - id: s2-m5-l1
+        title: "Your Ideal Day Map"
+        summary: "Sketching out what a typical day looks like when screens serve you rather than consume you."
+      - id: s2-m5-l2
+        title: "The Flexible Framework"
+        summary: "Building a structure that is firm enough to protect your attention but flexible enough to survive real life."
+      - id: s2-m5-l3
+        title: "Accountability and Support"
+        summary: "Why sharing your plan with others dramatically increases your chances of sticking with it, and how to find your support system."
+      - id: s2-m5-l4
+        title: "The Long Game"
+        summary: "Behavior change is not a sprint — it is a practice. How to maintain momentum, handle setbacks, and keep evolving your plan."
+      - id: s2-m5-l5
+        title: "Your Intentional Digital Life Declaration"
+        summary: "Writing a personal declaration of how you want to live with technology — your values, your boundaries, and your commitments."
+    challenge:
+      id: s2-m5-ch1
+      title: "Your Intentional Digital Life Plan"
+      description: "Create your personal Intentional Digital Life plan. Include: your screen-free morning routine, your deep work blocks, your friction-based changes, your evening wind-down routine, and your personal values around technology. Test it for one full week. At the end, revise it based on what you learned. This is your living document — it will evolve with you."
+
+resources:
+  - title: "Atomic Habits by James Clear"
+    url: "https://jamesclear.com/atomic-habits"
+    type: book
+  - title: "Tiny Habits by BJ Fogg"
+    url: "https://tinyhabits.com/"
+    type: book
+  - title: "Indistractable by Nir Eyal"
+    url: "https://www.nirandfar.com/indistractable"
+    type: book
+  - title: "Deep Work by Cal Newport"
+    url: "https://calnewport.com/writing/"
+    type: book
+  - title: "Why We Sleep by Matthew Walker"
+    url: "https://www.simonandschuster.com/books/Why-We-Sleep/Matthew-Walker/9781501144325"
+    type: book
+  - title: "Center for Humane Technology — Take Control"
+    url: "https://www.humanetech.com/take-control"
+    type: website
+
+gamma_prompt: >
+  Create a visually engaging course presentation for 'Rewire Your Day: Designing a Life That Doesn't Revolve Around Screens.' This is an intermediate-level course for adults redesigning their daily routines around intentional screen use. Use a warm, energizing design with dawn-to-dusk colors (warm oranges for morning, focused blues for midday, calming purples for evening). Include slides for: course overview, each of the 5 modules with key concepts, morning routine design, deep work blocks, friction engineering principles, sleep hygiene and blue light, and the Intentional Digital Life plan template. Tone should be practical and empowering. Include daily routine diagrams and before/after comparisons. No emojis.

@@ -1,0 +1,185 @@
+id: p2
+slug: screen-smart-families
+title: "Screen-Smart Families"
+subtitle: "Building Rules, Routines, and Real Connection"
+persona: parent
+level: intermediate
+estimated_duration_hours: 3.5
+goals:
+  - Create a family screen plan with rules your children will actually follow
+  - Tailor screen strategies to your child's specific age and developmental stage
+  - Handle resistance and pushback without escalation
+  - Protect sleep, school performance, and family connection from screen interference
+  - Build a sustainable weekly rhythm for managing screens at home
+
+intended_outcomes:
+  - Parents have a written, age-appropriate Family Screen Plan
+  - Parents can apply the authoritative parenting model (warm + structured + explained rationale) to screen decisions
+  - Parents can de-escalate screen-related conflicts using collaborative approaches
+  - Parents have identified and protected screen-free zones and times in their home
+  - Parents have a weekly check-in routine to keep the plan alive and evolving
+
+gamification:
+  badges:
+    - code: plan-builder
+      title: "Plan Builder"
+      description: "Completed Module 1 — you have a family screen plan that can actually work"
+      module: p2-m1
+    - code: age-wise
+      title: "Age-Wise"
+      description: "Completed Module 2 — you know what works for your child's specific age"
+      module: p2-m2
+    - code: cool-headed
+      title: "Cool-Headed"
+      description: "Completed Module 3 — you can handle screen pushback without losing your cool"
+      module: p2-m3
+    - code: guardian-of-balance
+      title: "Guardian of Balance"
+      description: "Completed Module 4 — you are protecting what matters most"
+      module: p2-m4
+    - code: rhythm-keeper
+      title: "Rhythm Keeper"
+      description: "Completed Module 5 — you have a weekly reset routine to keep it all going"
+      module: p2-m5
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: p2-m1
+    title: "The Family Screen Plan"
+    subtitle: "Creating rules that actually work"
+    is_free_without_login: true
+    estimated_minutes: 40
+    lessons:
+      - id: p2-m1-l1
+        title: "Why Most Screen Rules Fail"
+        summary: "The three mistakes almost every parent makes — and what to do instead"
+      - id: p2-m1-l2
+        title: "Warm, Firm, and Explained"
+        summary: "The authoritative parenting model applied to screens"
+      - id: p2-m1-l3
+        title: "Rules They Help Write"
+        summary: "Why involving your child in the plan makes it ten times more likely to stick"
+      - id: p2-m1-l4
+        title: "Your Family Screen Agreement"
+        summary: "A step-by-step template for writing a plan the whole family signs"
+    challenge:
+      id: p2-m1-ch1
+      title: "Draft Your Family Screen Plan"
+      description: "Using the template from Lesson 4, draft a Family Screen Agreement with input from your child. It does not need to be perfect — it needs to exist. Write it, discuss it, and put it somewhere everyone can see."
+      badge: plan-builder
+
+  - id: p2-m2
+    title: "Age by Age"
+    subtitle: "What works for toddlers, kids, tweens, and teens"
+    is_free_without_login: false
+    estimated_minutes: 45
+    lessons:
+      - id: p2-m2-l1
+        title: "The Tiny Ones (0-5)"
+        summary: "Screen strategies for babies, toddlers, and preschoolers"
+      - id: p2-m2-l2
+        title: "The Middle Years (6-9)"
+        summary: "When curiosity meets the internet — and your child needs guardrails"
+      - id: p2-m2-l3
+        title: "The Tween Shift (10-12)"
+        summary: "Social media knocks on the door — how to answer it"
+      - id: p2-m2-l4
+        title: "The Teen Tightrope (13-18)"
+        summary: "Moving from control to coaching — the hardest transition in parenting"
+    challenge:
+      id: p2-m2-ch1
+      title: "The Age-Appropriate Update"
+      description: "Revisit your Family Screen Plan with age-specific adjustments based on what you learned in this module. For each child, note what changes and why."
+      badge: age-wise
+
+  - id: p2-m3
+    title: "When They Push Back"
+    subtitle: "Handling resistance without losing your cool"
+    is_free_without_login: false
+    estimated_minutes: 45
+    lessons:
+      - id: p2-m3-l1
+        title: "The Meltdown Moment"
+        summary: "Why taking screens away triggers such intense reactions — and what is really going on"
+      - id: p2-m3-l2
+        title: "Plan B Parenting"
+        summary: "Ross Greene's Collaborative and Proactive Solutions for screen conflicts"
+      - id: p2-m3-l3
+        title: "Scripts That Actually Help"
+        summary: "What to say when they say 'Everyone else gets to' and 'You don't understand'"
+      - id: p2-m3-l4
+        title: "Staying Calm When They Are Not"
+        summary: "Managing your own emotional triggers during screen battles"
+    challenge:
+      id: p2-m3-ch1
+      title: "The Plan B Conversation"
+      description: "Choose one recurring screen conflict in your home. Use Ross Greene's Plan B approach (Empathy, Define the Problem, Invitation) to have a collaborative conversation with your child about it. Write down how it went."
+      badge: cool-headed
+
+  - id: p2-m4
+    title: "Screens and Sleep, School, and Sanity"
+    subtitle: "Protecting what matters"
+    is_free_without_login: false
+    estimated_minutes: 40
+    lessons:
+      - id: p2-m4-l1
+        title: "The Sleep Thief"
+        summary: "How screens steal your child's sleep — and why that matters more than anything"
+      - id: p2-m4-l2
+        title: "Screen-Proofing Homework Time"
+        summary: "Practical strategies for keeping screens from sabotaging school performance"
+      - id: p2-m4-l3
+        title: "Protecting Family Time"
+        summary: "Creating device-free zones and rituals that strengthen connection"
+      - id: p2-m4-l4
+        title: "The Replacement Principle"
+        summary: "Why 'less screens' fails and 'more of the good stuff' works"
+    challenge:
+      id: p2-m4-ch1
+      title: "The Screen-Free Zone Experiment"
+      description: "Establish one new screen-free zone or screen-free time in your home this week. Commit to it for seven days. Track what happens — both the resistance and the unexpected benefits."
+      badge: guardian-of-balance
+
+  - id: p2-m5
+    title: "The Weekly Reset"
+    subtitle: "Keeping your plan alive"
+    is_free_without_login: false
+    estimated_minutes: 35
+    lessons:
+      - id: p2-m5-l1
+        title: "Plans Die on Monday"
+        summary: "Why good screen rules fall apart — and the one habit that saves them"
+      - id: p2-m5-l2
+        title: "The 10-Minute Check-In"
+        summary: "A simple weekly conversation that keeps your family screen plan on track"
+      - id: p2-m5-l3
+        title: "Adjusting Without Caving"
+        summary: "How to evolve your rules over time without losing the foundation"
+      - id: p2-m5-l4
+        title: "Celebrating Progress, Not Perfection"
+        summary: "Recognizing wins and recovering from setbacks with grace"
+    challenge:
+      id: p2-m5-ch1
+      title: "Your First Weekly Reset"
+      description: "Hold your first 10-minute family screen check-in using the template from Lesson 2. Ask what is working, what is not, and what should change. Write down the outcome and schedule the next one."
+      badge: rhythm-keeper
+
+resources:
+  - title: "AAP Family Media Plan Tool"
+    url: "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx"
+  - title: "Ross Greene — Collaborative & Proactive Solutions"
+    url: "https://www.livesinthebalance.org/"
+  - title: "Devorah Heitner — Screenwise"
+    url: "https://devorahheitner.com/screenwise/"
+  - title: "Common Sense Media — Family Media Agreement"
+    url: "https://www.commonsensemedia.org/family-media-agreement"
+  - title: "Emily Weinstein & Carrie James — Behind Their Screens"
+    url: "https://www.behindtheirscreens.com/"
+  - title: "Pew Research: Parenting Children in the Age of Screens (2025)"
+    url: "https://www.pewresearch.org/internet/2024/03/11/how-teens-and-parents-approach-screen-time/"
+
+gamma_prompt: |
+  Create a practical, action-oriented slide deck for parents titled "Screen-Smart Families." The tone is warm and encouraging — like a parenting coach who has seen it all. Use clean, structured design with warm colors. Include a visual Family Screen Agreement template, age-by-age guideline graphics, Ross Greene's Plan B conversation flow chart, and a Weekly Reset checklist. Show diverse family structures. Emphasize collaboration over control. Each module gets its own section. End with the Weekly Reset habit as the key sustainable practice.

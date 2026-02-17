@@ -1,0 +1,187 @@
+id: "y2"
+slug: "level-up-irl"
+title: "Level Up IRL"
+subtitle: "Building a Life That Doesn't Need a Charger"
+persona: "youth"
+level: "intermediate"
+estimated_duration_hours: 3
+
+goals:
+  - "Build daily routines that reduce mindless screen use and increase real-world engagement"
+  - "Navigate social media and gaming with balance and intention"
+  - "Develop offline hobbies, relationships, and coping strategies that genuinely fulfill you"
+  - "Handle stress and difficult emotions without defaulting to screens"
+
+intended_outcomes:
+  - "You have a personalized daily routine that includes phone-free time blocks"
+  - "You can stay socially connected while significantly reducing social media consumption"
+  - "You have identified and committed to at least one offline hobby or pursuit that matters to you"
+  - "You have healthier coping strategies for stress and hard emotions that do not depend on screens"
+
+gamification:
+  badges:
+    - module_id: "y2-m1"
+      code: "routine-builder"
+      label: "Routine Builder"
+      description: "Designed a personalized daily routine with intentional phone-free time blocks"
+    - module_id: "y2-m2"
+      code: "social-strategist"
+      label: "Social Strategist"
+      description: "Completed a social media detox while maintaining real friendships"
+    - module_id: "y2-m3"
+      code: "balance-master"
+      label: "Balance Master"
+      description: "Found a sustainable balance with gaming and streaming through intentional boundaries"
+    - module_id: "y2-m4"
+      code: "offline-explorer"
+      label: "Offline Explorer"
+      description: "Invested real time in an offline hobby or pursuit and reflected on the experience"
+    - module_id: "y2-m5"
+      code: "resilient-responder"
+      label: "Resilient Responder"
+      description: "Developed a personal stress toolkit that does not rely on screens"
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: "y2-m1"
+    index: 1
+    title: "Design Your Day"
+    is_free_without_login: true
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "Creating routines that actually stick. How to structure your day so your phone fits into your life instead of running it."
+    lessons:
+      - id: "y2-m1-l1"
+        title: "Why Routines Are Not Boring (They Are Freedom)"
+        summary: "Routines sound restricting but they actually free up mental energy. How structure creates space for the things you actually care about."
+      - id: "y2-m1-l2"
+        title: "The Morning Reclaim"
+        summary: "How you start your day sets the tone for everything. Building a phone-free morning routine that works for you."
+      - id: "y2-m1-l3"
+        title: "Time Blocking for Real Life"
+        summary: "You do not need a CEO schedule. Simple time blocking that protects your focus, your fun, and your rest."
+      - id: "y2-m1-l4"
+        title: "The Night Wind-Down"
+        summary: "Building an evening routine that helps you sleep better and wake up feeling more in control."
+    challenge:
+      id: "y2-m1-ch1"
+      title: "Design Your Ideal Day"
+      description: "Map out your ideal weekday and weekend day, including specific phone-free blocks. Try following this plan for 3 days and adjust based on what works."
+
+  - id: "y2-m2"
+    index: 2
+    title: "Social Media Detox Without Losing Your Friends"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp: 50
+    summary: "How to reduce social media without becoming a hermit. Staying connected to the people who matter while cutting the noise."
+    lessons:
+      - id: "y2-m2-l1"
+        title: "Detox Does Not Mean Disappear"
+        summary: "You do not have to delete everything. Strategic reduction is more sustainable and less dramatic than going cold turkey."
+      - id: "y2-m2-l2"
+        title: "The 30-Minute Rule"
+        summary: "Research shows 30 minutes of social media per day reduces depression and loneliness. How to make that limit work in practice."
+      - id: "y2-m2-l3"
+        title: "Curate Your Feed Like Your Life Depends on It"
+        summary: "Unfollow, mute, and block without guilt. Your feed should make your life better, not worse."
+      - id: "y2-m2-l4"
+        title: "Replacing Scrolling with Real Connection"
+        summary: "What to do with the time you free up. Moving from passive consumption to active friendship."
+    challenge:
+      id: "y2-m2-ch1"
+      title: "The 5-Day Social Media Reset"
+      description: "Limit social media to 30 minutes per day for 5 days. Replace at least 15 minutes of freed-up time each day with a real conversation (call, video chat, or in person). Journal what you notice."
+
+  - id: "y2-m3"
+    index: 3
+    title: "Gaming, Streaming, and the Dopamine Trap"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "Gaming and streaming are fun. But when does fun become a trap? Finding balance with the things you love without losing yourself."
+    lessons:
+      - id: "y2-m3-l1"
+        title: "Gaming Is Not the Enemy"
+        summary: "Games build skills, connect people, and are genuinely fun. The problem is not gaming itself. It is when gaming starts running your life."
+      - id: "y2-m3-l2"
+        title: "When Fun Becomes a Trap"
+        summary: "Gaming disorder affects 4.6% of adolescents. The signs, the science, and how to know if your gaming has crossed a line."
+      - id: "y2-m3-l3"
+        title: "The Streaming Vortex"
+        summary: "Autoplay, binge culture, and the feeling of just one more episode. How streaming platforms keep you watching and how to set boundaries."
+      - id: "y2-m3-l4"
+        title: "Setting Boundaries You Can Actually Keep"
+        summary: "Practical strategies for gaming and streaming in moderation. Time limits, session endings, and accountability that works."
+    challenge:
+      id: "y2-m3-ch1"
+      title: "The Intentional Play Week"
+      description: "For one week, set a specific time limit for gaming or streaming each day. Before each session, decide how long you will play or watch. When the time is up, stop. Write a sentence about how it felt to be in control of the session."
+
+  - id: "y2-m4"
+    index: 4
+    title: "Building Your Offline Life"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "Hobbies, people, and experiences that hit different. How to build a life that is so engaging you do not need a screen to fill the gaps."
+    lessons:
+      - id: "y2-m4-l1"
+        title: "The Boredom Gateway"
+        summary: "Boredom is not the enemy. It is the doorway to everything interesting. Why sitting with boredom is a skill worth building."
+      - id: "y2-m4-l2"
+        title: "Finding Your Thing"
+        summary: "Sports, art, music, cooking, hiking, building, volunteering. How to discover offline activities that genuinely light you up."
+      - id: "y2-m4-l3"
+        title: "The Power of Being Bad at Something"
+        summary: "You do not have to be good at a hobby for it to matter. Why starting something new, badly, is one of the best things you can do."
+      - id: "y2-m4-l4"
+        title: "Showing Up for Real Life"
+        summary: "Making plans, being present, and investing in experiences that you will actually remember. Not just watch on a screen."
+    challenge:
+      id: "y2-m4-ch1"
+      title: "The Offline Adventure"
+      description: "This week, try one new offline activity you have been curious about. It can be anything: a sport, a recipe, a creative project, a walk somewhere new. Spend at least 2 hours on it. No phone during the activity. Write about what you experienced."
+
+  - id: "y2-m5"
+    index: 5
+    title: "When Life Gets Hard"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "Screens and stress. Why your phone is often the first thing you reach for when things get tough, and what to do instead."
+    lessons:
+      - id: "y2-m5-l1"
+        title: "Why You Reach for Your Phone When You Are Stressed"
+        summary: "Screens offer instant escape from uncomfortable feelings. Understanding the stress-screen cycle and why it does not actually help."
+      - id: "y2-m5-l2"
+        title: "Building Your Coping Toolkit"
+        summary: "Movement, breathing, talking to someone, journaling, being outside. Concrete alternatives that actually reduce stress."
+      - id: "y2-m5-l3"
+        title: "When Screens Are the Problem, Not the Escape"
+        summary: "Cyberbullying, comparison, doomscrolling. When your phone is making things worse and how to recognize it."
+      - id: "y2-m5-l4"
+        title: "Asking for Help Is Not Weakness"
+        summary: "When screen habits or mental health struggles feel bigger than you can handle alone. Where to turn and what to say."
+    challenge:
+      id: "y2-m5-ch1"
+      title: "Build Your Stress Toolkit"
+      description: "Create a personal list of 5 non-screen things you can do when stressed. Try each one at least once this week. Rate how effective each one was. Keep the list on a physical card you carry with you."
+
+resources:
+  - title: "LOG OFF movement (founded by Emma Lembke)"
+    url: "https://www.logoffmovement.org"
+  - title: "Center for Humane Technology"
+    url: "https://www.humanetech.com"
+  - title: "Crisis Text Line — Text HOME to 741741"
+    url: "https://www.crisistextline.org"
+  - title: "Common Sense Media — Game and App Reviews"
+    url: "https://www.commonsensemedia.org"
+  - title: "JAMA Pediatrics — Social Media and Depression Study"
+    url: "https://jamanetwork.com/journals/jamapediatrics"
+
+gamma_prompt: >
+  Create a visually engaging presentation for teens and young adults (ages 13-25) about building a fulfilling offline life while maintaining a healthy relationship with technology. Modern, bold design with vibrant colors. Cover daily routines, social media detox strategies, balanced gaming, offline hobbies, and stress management without screens. Include the 30-minute social media rule backed by JAMA Pediatrics research. Tone should be encouraging and practical — like a friend who has figured some things out and wants to share. No judgment. No scare tactics. Focus on what you gain, not what you lose.

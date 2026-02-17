@@ -1,0 +1,174 @@
+id: s1
+slug: reclaim-your-attention
+title: "Reclaim Your Attention"
+subtitle: "Understanding Why You Can't Put the Phone Down"
+persona: self
+level: foundations
+estimated_duration_hours: 3
+goals:
+  - Understand the neuroscience behind compulsive screen use without shame or judgment
+  - Identify personal screen habits and the needs they are meeting
+  - Learn the Loop Model and recognize your own trigger-urge-behavior cycles
+  - Begin making small, sustainable changes to your relationship with screens
+intended_outcomes:
+  - Participants can accurately describe how dopamine and variable rewards drive compulsive checking
+  - Participants have completed an honest screen audit without self-judgment
+  - Participants can identify their top three screen use triggers
+  - Participants have successfully tested at least two friction-based experiments
+  - Participants understand the difference between nutritious, neutral, and draining screen use
+
+gamification:
+  badges:
+    - module_id: s1-m1
+      code: honest-look
+      label: "The Honest Look"
+      description: "Completed your first screen audit with curiosity instead of judgment"
+    - module_id: s1-m2
+      code: hook-spotter
+      label: "Hook Spotter"
+      description: "Identified the invisible design patterns that keep you scrolling"
+    - module_id: s1-m3
+      code: loop-breaker
+      label: "Loop Breaker"
+      description: "Mapped your personal trigger-urge-behavior loops"
+    - module_id: s1-m4
+      code: first-experimenter
+      label: "First Experimenter"
+      description: "Ran your first intentional screen habit experiment"
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: s1-m1
+    index: 1
+    title: "The Honest Look"
+    is_free_without_login: true
+    estimated_time_minutes: 40
+    xp: 50
+    summary: "Seeing your screen habits without shame. You will gather real data about how you use your phone, understand why guilt makes things worse, and begin approaching your habits with curiosity instead of criticism."
+    lessons:
+      - id: s1-m1-l1
+        title: "You Are Not Weak"
+        summary: "Why willpower has almost nothing to do with your screen habits, and why the smartest people in the world struggle with the same thing."
+      - id: s1-m1-l2
+        title: "The Numbers Don't Lie"
+        summary: "How to run an honest screen audit using your phone's built-in tools, and what the data actually means."
+      - id: s1-m1-l3
+        title: "Nutritious, Neutral, or Draining"
+        summary: "A simple framework for evaluating your screen time without labeling all of it as bad."
+      - id: s1-m1-l4
+        title: "The Shame Trap"
+        summary: "Why feeling guilty about screen use actually increases it, and how self-compassion is the real starting point for change."
+    challenge:
+      id: s1-m1-ch1
+      title: "Your 48-Hour Screen Audit"
+      description: "Track your screen time for 48 hours using your phone's built-in screen time tools. At the end, sort each app into nutritious, neutral, or draining. No judgment — just data. Share one observation that surprised you."
+
+  - id: s1-m2
+    index: 2
+    title: "The Invisible Hooks"
+    is_free_without_login: false
+    estimated_time_minutes: 45
+    xp: 55
+    summary: "Understanding why apps have you on a string. You will learn how the attention economy works, how apps are engineered to be irresistible, and why knowing this changes everything."
+    lessons:
+      - id: s1-m2-l1
+        title: "The Attention Economy"
+        summary: "How your focus became the most valuable commodity on earth, and what tech companies are really selling."
+      - id: s1-m2-l2
+        title: "Dopamine and the Slot Machine in Your Pocket"
+        summary: "The neuroscience of variable rewards and why your phone is designed like a casino."
+      - id: s1-m2-l3
+        title: "The Hook Model"
+        summary: "Nir Eyal's four-step framework for how products create habits — trigger, action, variable reward, investment."
+      - id: s1-m2-l4
+        title: "Design Patterns That Hijack You"
+        summary: "Infinite scroll, autoplay, red notification badges, and other persuasive design tricks explained."
+      - id: s1-m2-l5
+        title: "From Victim to Detective"
+        summary: "How understanding these patterns shifts you from feeling powerless to feeling informed and ready to act."
+    challenge:
+      id: s1-m2-ch1
+      title: "Spot the Hooks"
+      description: "Open your three most-used apps and identify at least two Hook Model elements in each — triggers, variable rewards, and investments that keep you coming back. Write down what you find. Knowledge is the first form of resistance."
+
+  - id: s1-m3
+    index: 3
+    title: "Your Triggers, Your Loops"
+    is_free_without_login: false
+    estimated_time_minutes: 45
+    xp: 55
+    summary: "Understanding what drives your scrolling. You will learn the Loop Model, identify your personal triggers, and discover that most screen use is driven by emotions rather than boredom."
+    lessons:
+      - id: s1-m3-l1
+        title: "The Loop Model"
+        summary: "Trigger, urge, behavior, relief, cost — understanding the five-step cycle that drives compulsive screen use."
+      - id: s1-m3-l2
+        title: "Your Trigger Map"
+        summary: "Identifying the emotional states, times of day, and situations that send you reaching for your phone."
+      - id: s1-m3-l3
+        title: "The Needs Behind the Screen"
+        summary: "Every screen habit is meeting a real need — connection, comfort, stimulation, escape. Finding the need is the key."
+      - id: s1-m3-l4
+        title: "The 60-Second Pause"
+        summary: "A simple mindfulness technique that creates space between trigger and behavior, giving you back your choice."
+      - id: s1-m3-l5
+        title: "Urge Surfing"
+        summary: "How to ride the wave of a screen urge without acting on it, and why it gets easier every time."
+    challenge:
+      id: s1-m3-ch1
+      title: "Your Loop Journal"
+      description: "For three days, catch yourself reaching for your phone and log the loop: What triggered you? What was the urge? What did you do? What relief did you feel? What was the cost? Aim for at least five entries. You are building your personal map of change."
+
+  - id: s1-m4
+    index: 4
+    title: "The First Experiments"
+    is_free_without_login: false
+    estimated_time_minutes: 50
+    xp: 60
+    summary: "Small changes, real results. You will design your first friction-based experiments, learn the power of environment design, and discover that tiny shifts create surprising momentum."
+    lessons:
+      - id: s1-m4-l1
+        title: "Friction Is Your Friend"
+        summary: "How adding small barriers to unwanted habits and removing barriers to desired ones can transform your behavior."
+      - id: s1-m4-l2
+        title: "The Environment Advantage"
+        summary: "James Clear's insight that you do not rise to the level of your goals — you fall to the level of your systems."
+      - id: s1-m4-l3
+        title: "Your First Three Experiments"
+        summary: "Practical experiments you can try today — moving apps, disabling autoplay, switching to grayscale, and more."
+      - id: s1-m4-l4
+        title: "What Counts as Success"
+        summary: "Redefining success as awareness and effort, not perfection. Why noticing you picked up the phone is already a win."
+      - id: s1-m4-l5
+        title: "Building Your Momentum"
+        summary: "How to track your experiments, celebrate small wins, and prepare for the deeper work ahead."
+    challenge:
+      id: s1-m4-ch1
+      title: "The 7-Day Friction Experiment"
+      description: "Choose two friction-based changes from the lesson and commit to them for seven days. Options include: moving social media off your home screen, enabling grayscale mode, disabling autoplay on streaming apps, or charging your phone outside the bedroom. Track what happens daily. At the end, write a short reflection on what changed — and what surprised you."
+
+resources:
+  - title: "Dopamine Nation by Anna Lembke"
+    url: "https://www.annalembke.com/dopamine-nation"
+    type: book
+  - title: "Hooked by Nir Eyal"
+    url: "https://www.nirandfar.com/hooked"
+    type: book
+  - title: "Indistractable by Nir Eyal"
+    url: "https://www.nirandfar.com/indistractable"
+    type: book
+  - title: "The Social Dilemma (Netflix)"
+    url: "https://www.thesocialdilemma.com/"
+    type: film
+  - title: "Center for Humane Technology"
+    url: "https://www.humanetech.com/"
+    type: website
+  - title: "Your Phone's Screen Time Settings Guide"
+    url: "https://www.humanetech.com/take-control"
+    type: tool
+
+gamma_prompt: >
+  Create a visually engaging course presentation for 'Reclaim Your Attention: Understanding Why You Can't Put the Phone Down.' This is a foundations-level course for adults who want to understand and change their personal screen habits. Use a warm, modern design with calming colors (soft blues, greens, warm neutrals). Include slides for: course overview, each of the 4 modules with key concepts, the Loop Model diagram, the nutritious/neutral/draining framework, the Hook Model, friction-based design strategies, and a course completion summary. Tone should be empowering and non-judgmental. Include data visualizations for screen time statistics where appropriate. No emojis.

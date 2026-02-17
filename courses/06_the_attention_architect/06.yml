@@ -1,0 +1,213 @@
+id: s3
+slug: the-attention-architect
+title: "The Attention Architect"
+subtitle: "Building Unshakeable Digital Freedom"
+persona: self
+level: advanced
+estimated_duration_hours: 4
+goals:
+  - Understand the systemic forces of the attention economy and how persuasive design exploits human psychology at scale
+  - Apply neuroplasticity research to build new cognitive defaults and break entrenched screen patterns
+  - Recognize and interrupt the emotional escape cycle that drives compulsive screen use
+  - Develop a relapse playbook rooted in self-compassion and behavior change science
+  - Build a long-term vision for intentional digital living that extends beyond personal habits
+intended_outcomes:
+  - Participants can articulate how the attention economy operates and identify persuasive design in real time
+  - Participants have practiced neuroplasticity-based exercises for at least two weeks and can describe changes in their default patterns
+  - Participants can identify their emotional escape patterns and have tested at least three alternative coping strategies
+  - Participants have a written relapse playbook with specific strategies for their known vulnerability points
+  - Participants have created an Attention Legacy plan that integrates their values, habits, and long-term vision
+
+gamification:
+  badges:
+    - module_id: s3-m1
+      code: economy-exposer
+      label: "Economy Exposer"
+      description: "Completed a deep analysis of the attention economy and its impact on your life"
+    - module_id: s3-m2
+      code: neural-rewirer
+      label: "Neural Rewirer"
+      description: "Practiced neuroplasticity exercises for two consecutive weeks to build new defaults"
+    - module_id: s3-m3
+      code: emotional-navigator
+      label: "Emotional Navigator"
+      description: "Identified your emotional escape patterns and tested alternative coping strategies"
+    - module_id: s3-m4
+      code: relapse-resilient
+      label: "Relapse Resilient"
+      description: "Created a personalized relapse playbook and used it to recover from a setback"
+    - module_id: s3-m5
+      code: attention-architect
+      label: "Attention Architect"
+      description: "Designed your Attention Legacy plan for long-term intentional digital living"
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: s3-m1
+    index: 1
+    title: "The Attention Economy Exposed"
+    is_free_without_login: true
+    estimated_time_minutes: 45
+    xp: 55
+    summary: "How tech companies profit from your distraction. You will go beyond the basics to understand the systemic forces that shape your digital life — the business models, the algorithmic manipulation, and the societal consequences of an economy built on capturing human attention."
+    lessons:
+      - id: s3-m1-l1
+        title: "Follow the Money"
+        summary: "How advertising revenue models create a structural incentive to capture and hold your attention at all costs."
+      - id: s3-m1-l2
+        title: "The Algorithm Behind the Curtain"
+        summary: "How recommendation algorithms learn your vulnerabilities and use them to maximize engagement."
+      - id: s3-m1-l3
+        title: "Persuasive Design at Scale"
+        summary: "The specific techniques companies use to engineer compulsive behavior — from BJ Fogg's lab to your home screen."
+      - id: s3-m1-l4
+        title: "The Societal Cost"
+        summary: "How the attention economy affects democracy, mental health, relationships, and our collective ability to focus."
+      - id: s3-m1-l5
+        title: "Your Personal Audit"
+        summary: "Applying this systemic understanding to your own digital life — where are you most vulnerable to these forces?"
+    challenge:
+      id: s3-m1-ch1
+      title: "The Attention Economy Deep Dive"
+      description: "Spend one week observing the attention economy in your own life. Each day, document one example of persuasive design you encounter — in apps, websites, notifications, or marketing. For each, identify the technique, the psychological vulnerability it targets, and how it affected your behavior. At the end of the week, write a one-page summary of what you found and share it with your accountability partner."
+
+  - id: s3-m2
+    index: 2
+    title: "Rewiring Your Brain"
+    is_free_without_login: false
+    estimated_time_minutes: 50
+    xp: 60
+    summary: "Neuroplasticity and building new defaults. You will learn how your brain physically changes in response to repeated behaviors, and apply this knowledge to deliberately build new neural pathways that support intentional living."
+    lessons:
+      - id: s3-m2-l1
+        title: "Your Plastic Brain"
+        summary: "The science of neuroplasticity — how your brain rewires itself based on what you repeatedly do, and why this is both the problem and the solution."
+      - id: s3-m2-l2
+        title: "The Dopamine Reset"
+        summary: "Anna Lembke's approach to resetting your pleasure-pain balance through structured periods of reduced stimulation."
+      - id: s3-m2-l3
+        title: "Building New Defaults"
+        summary: "How to use repetition, attention, and emotion to build neural pathways for the habits you want — and weaken the pathways for the habits you do not."
+      - id: s3-m2-l4
+        title: "Mindfulness as Brain Training"
+        summary: "How mindfulness practices physically change the brain — strengthening attention, reducing reactivity, and building the capacity to observe without acting."
+      - id: s3-m2-l5
+        title: "The Two-Week Rewire Challenge"
+        summary: "Designing a two-week intensive practice to build specific new defaults using neuroplasticity principles."
+    challenge:
+      id: s3-m2-ch1
+      title: "The Two-Week Rewire"
+      description: "Choose one deeply entrenched screen habit you want to change. Using the neuroplasticity principles from this module, design a two-week plan that includes: a specific replacement behavior, a daily mindfulness practice (even five minutes), consistent repetition at the same time each day, and emotional reinforcement (celebration after each success). Track daily. At the end of two weeks, write a reflection on what shifted — in your behavior and in how the old habit feels."
+
+  - id: s3-m3
+    index: 3
+    title: "Stress, Emotions, and Screens"
+    is_free_without_login: false
+    estimated_time_minutes: 50
+    xp: 60
+    summary: "Breaking the emotional escape cycle. You will explore how screens become default emotional regulators, learn to identify your emotional escape patterns, and build a diverse toolkit for handling difficult feelings without defaulting to your phone."
+    lessons:
+      - id: s3-m3-l1
+        title: "The Emotional Escape Hatch"
+        summary: "How screens become the default response to every uncomfortable emotion — and why this short-circuits your ability to process feelings."
+      - id: s3-m3-l2
+        title: "Your Emotional Landscape"
+        summary: "Mapping the specific emotions that drive your screen use — stress, loneliness, boredom, anxiety, sadness, anger, and the need for comfort."
+      - id: s3-m3-l3
+        title: "The Feeling Tolerance Gap"
+        summary: "How habitual screen use reduces your capacity to sit with difficult emotions, and how to rebuild that capacity gradually."
+      - id: s3-m3-l4
+        title: "Your Coping Toolkit"
+        summary: "Building a diverse set of strategies for handling difficult emotions without screens — physical, social, creative, reflective, and sensory approaches."
+      - id: s3-m3-l5
+        title: "When Screens Are the Right Choice"
+        summary: "Recognizing that sometimes screens genuinely help — and learning to distinguish between screen use as escape and screen use as support."
+    challenge:
+      id: s3-m3-ch1
+      title: "The Emotion-Action Experiment"
+      description: "For ten days, track every time you reach for your phone in response to an uncomfortable emotion. Log the emotion, the urge intensity (1-10), and what you chose to do. For at least half of these moments, try an alternative from your coping toolkit instead of the phone. At the end, compare: How did the screen response feel versus the alternative? Which emotions were hardest to sit with? What alternatives worked best for you?"
+
+  - id: s3-m4
+    index: 4
+    title: "The Relapse Playbook"
+    is_free_without_login: false
+    estimated_time_minutes: 45
+    xp: 55
+    summary: "Why setbacks happen and how to use them. You will learn why relapse is a normal and expected part of behavior change, identify your personal high-risk situations, and build a concrete playbook for getting back on track when old habits return."
+    lessons:
+      - id: s3-m4-l1
+        title: "Relapse Is Not Failure"
+        summary: "Why every model of behavior change includes setbacks as normal, and how reframing relapse changes everything."
+      - id: s3-m4-l2
+        title: "The Anatomy of a Setback"
+        summary: "Understanding the common patterns that lead to relapse — high-risk situations, the abstinence violation effect, and the slow drift."
+      - id: s3-m4-l3
+        title: "Your High-Risk Map"
+        summary: "Identifying the specific situations, emotions, and periods of life when you are most vulnerable to old screen habits returning."
+      - id: s3-m4-l4
+        title: "Building Your Playbook"
+        summary: "Creating a concrete, written relapse response plan with specific actions for each of your high-risk situations."
+      - id: s3-m4-l5
+        title: "The Recovery Mindset"
+        summary: "Cultivating the inner stance that makes recovery possible — self-compassion, curiosity, and the willingness to begin again."
+    challenge:
+      id: s3-m4-ch1
+      title: "Your Personal Relapse Playbook"
+      description: "Create your written Relapse Playbook. Include: your top five high-risk situations, specific early warning signs for each, concrete response actions for when you notice a setback beginning, a self-compassion statement for when you slip, and a 24-hour recovery protocol for getting back on track. Test the playbook by deliberately exposing yourself to a moderate-risk situation and practicing your response. Reflect on what worked and revise."
+
+  - id: s3-m5
+    index: 5
+    title: "Your Attention Legacy"
+    is_free_without_login: false
+    estimated_time_minutes: 50
+    xp: 60
+    summary: "Living with intention for the long haul. You will step back to see the bigger picture — how your relationship with technology connects to your values, your relationships, and the kind of life you want to live. You will create a long-term vision and a sustainable practice for maintaining digital freedom."
+    lessons:
+      - id: s3-m5-l1
+        title: "The Life You Want to Live"
+        summary: "Connecting your screen habits to your deepest values — what kind of life are you building, and where do screens fit?"
+      - id: s3-m5-l2
+        title: "Digital Sabbath"
+        summary: "The research and practice of taking regular extended breaks from screens — weekly, monthly, or annually — and what they reveal about your relationship with technology."
+      - id: s3-m5-l3
+        title: "Influence and Advocacy"
+        summary: "How your personal changes can ripple outward — influencing your household, your workplace, and your community."
+      - id: s3-m5-l4
+        title: "The Evolving Practice"
+        summary: "How to maintain and evolve your digital wellbeing practice as technology changes, your life changes, and new challenges arise."
+      - id: s3-m5-l5
+        title: "Your Attention Legacy Statement"
+        summary: "Writing a final statement that captures who you are becoming, how you relate to technology, and the legacy of attention you want to leave."
+    challenge:
+      id: s3-m5-ch1
+      title: "Your Attention Legacy Plan"
+      description: "Create your comprehensive Attention Legacy Plan. Include: your core values and how technology relates to them, your daily practices (morning, focus, friction, evening), your relapse playbook, your digital sabbath practice, one way you will influence others, and your Attention Legacy Statement. Try a mini digital sabbath (12 hours without screens) as part of this challenge. Reflect on the entire journey from the first course to now. What has changed? Who are you becoming?"
+
+resources:
+  - title: "Dopamine Nation by Anna Lembke"
+    url: "https://www.annalembke.com/dopamine-nation"
+    type: book
+  - title: "The Anxious Generation by Jonathan Haidt"
+    url: "https://www.anxiousgeneration.com/"
+    type: book
+  - title: "Irresistible by Adam Alter"
+    url: "https://www.adamalterauthor.com/irresistible"
+    type: book
+  - title: "Atomic Habits by James Clear"
+    url: "https://jamesclear.com/atomic-habits"
+    type: book
+  - title: "The Social Dilemma (Netflix)"
+    url: "https://www.thesocialdilemma.com/"
+    type: film
+  - title: "Center for Humane Technology"
+    url: "https://www.humanetech.com/"
+    type: website
+  - title: "Mindfulness-Based Cognitive Therapy Resources"
+    url: "https://mbct.com/"
+    type: website
+
+gamma_prompt: >
+  Create a visually engaging course presentation for 'The Attention Architect: Building Unshakeable Digital Freedom.' This is an advanced-level course for adults who have already built foundational screen habits and want to go deeper. Use a sophisticated, empowering design with deep blues, golds, and clean whites. Include slides for: course overview, the attention economy deep dive, neuroplasticity and brain rewiring, the emotional escape cycle, relapse prevention, digital sabbath, and the Attention Legacy plan. Include diagrams for the pleasure-pain balance, the emotional escape cycle, the relapse anatomy, and the Legacy framework. Tone should be mature, empowering, and forward-looking. No emojis.
