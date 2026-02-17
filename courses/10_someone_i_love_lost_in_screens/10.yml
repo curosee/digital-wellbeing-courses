@@ -1,0 +1,155 @@
+id: h1
+slug: someone-i-love-lost-in-screens
+title: "Someone I Love Is Lost in Screens"
+subtitle: "What You Need to Know (And What You Can Actually Do)"
+persona: supporter
+level: foundations
+estimated_duration_hours: 2.5
+goals:
+  - Understand what compulsive screen use looks like from both sides
+  - Learn the science behind why someone cannot simply stop
+  - Recognize and tend to your own pain as a supporter
+  - Identify concrete first steps that respect both your needs and theirs
+
+intended_outcomes:
+  - Supporters can describe the compensatory internet use model and the needs screens meet
+  - Supporters can name warning signs that distinguish heavy use from compulsive use
+  - Supporters have assessed their own stress and emotional toll
+  - Supporters have a short list of realistic, non-controlling first actions
+
+gamification:
+  badges:
+    - code: both-sides
+      title: "Both Sides"
+      description: "Completed Module 1 — you understand screen overuse from two perspectives"
+      module: h1-m1
+    - code: deeper-look
+      title: "Deeper Look"
+      description: "Completed Module 2 — you understand the science behind compulsive screen use"
+      module: h1-m2
+    - code: your-oxygen-mask
+      title: "Your Oxygen Mask"
+      description: "Completed Module 3 — you have tended to your own pain and needs"
+      module: h1-m3
+    - code: first-steps
+      title: "First Steps"
+      description: "Completed Module 4 — you have a plan of realistic actions you can take"
+      module: h1-m4
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: h1-m1
+    title: "What You See vs What They Feel"
+    subtitle: "Understanding screen overuse from both sides"
+    is_free_without_login: true
+    estimated_minutes: 35
+    lessons:
+      - id: h1-m1-l1
+        title: "You Are Not Overreacting"
+        summary: "Validating the worry, frustration, and grief that brought you here"
+      - id: h1-m1-l2
+        title: "What It Looks Like From Where You Stand"
+        summary: "Naming what you actually see — the withdrawal, the absences, the distance"
+      - id: h1-m1-l3
+        title: "What It Feels Like From Where They Sit"
+        summary: "Understanding the needs screens meet — connection, escape, mastery, relief"
+      - id: h1-m1-l4
+        title: "Two Realities, One Relationship"
+        summary: "How both your pain and their experience can be true at the same time"
+    challenge:
+      id: h1-m1-ch1
+      title: "The Two-Column Letter"
+      description: "Take a piece of paper and draw a line down the middle. On the left, write what you see and feel. On the right, try to write what they might be feeling and needing. You do not have to show this to anyone. It is for you."
+      badge: both-sides
+
+  - id: h1-m2
+    title: "Why They Can't Just Stop"
+    subtitle: "The science behind compulsive screen use"
+    is_free_without_login: false
+    estimated_minutes: 40
+    lessons:
+      - id: h1-m2-l1
+        title: "More Than a Bad Habit"
+        summary: "How screen overuse rewires the brain's reward system over time"
+      - id: h1-m2-l2
+        title: "The Needs Behind the Screen"
+        summary: "The compensatory internet use model — screens as a solution to unmet needs"
+      - id: h1-m2-l3
+        title: "Tolerance, Withdrawal, and Escalation"
+        summary: "Why the same amount of screen time stops being enough"
+      - id: h1-m2-l4
+        title: "It Is Not About Willpower"
+        summary: "Why telling them to just stop does not work — and what that means for you"
+    challenge:
+      id: h1-m2-ch1
+      title: "The Needs Detective"
+      description: "Without asking them directly yet, observe for one week and try to identify what needs their screen use might be meeting. Loneliness? Stress relief? Boredom? A sense of accomplishment? Write down your best guesses."
+      badge: deeper-look
+
+  - id: h1-m3
+    title: "Your Pain Matters Too"
+    subtitle: "Taking care of yourself in this situation"
+    is_free_without_login: false
+    estimated_minutes: 40
+    lessons:
+      - id: h1-m3-l1
+        title: "The Toll Nobody Talks About"
+        summary: "Secondary stress, burnout, and the emotional cost of watching someone you love struggle"
+      - id: h1-m3-l2
+        title: "Technoference and Phubbing — When Their Screen Hurts You"
+        summary: "Research on how a partner or loved one's screen use damages connection"
+      - id: h1-m3-l3
+        title: "The Codependency Trap"
+        summary: "When helping becomes controlling and caretaking replaces living your own life"
+      - id: h1-m3-l4
+        title: "Putting Yourself Back on the List"
+        summary: "Practical ways to tend to your own mental health right now"
+    challenge:
+      id: h1-m3-ch1
+      title: "One Thing for You"
+      description: "This week, do one thing that is purely for your own wellbeing. Not to help them. Not to model good behavior. Something that fills your cup. Write down what you did and how it felt."
+      badge: your-oxygen-mask
+
+  - id: h1-m4
+    title: "First Steps"
+    subtitle: "What you can actually do right now"
+    is_free_without_login: false
+    estimated_minutes: 35
+    lessons:
+      - id: h1-m4-l1
+        title: "What You Can Control (And What You Cannot)"
+        summary: "Drawing the line between influence and control with compassion"
+      - id: h1-m4-l2
+        title: "Small Moves, Not Grand Interventions"
+        summary: "Why gradual, gentle steps work better than ultimatums"
+      - id: h1-m4-l3
+        title: "Creating Invitations, Not Demands"
+        summary: "How to open a door they might choose to walk through"
+      - id: h1-m4-l4
+        title: "Your First-Steps Plan"
+        summary: "Building a short, realistic list of things you will try this week"
+    challenge:
+      id: h1-m4-ch1
+      title: "Three Things I Will Try"
+      description: "Write down three small, specific, non-controlling actions you will take this week. They should be things you can do regardless of how the other person responds. Share them with a trusted friend or write them somewhere you will see them."
+      badge: first-steps
+
+resources:
+  - title: "Compensatory Internet Use Model — Kardefelt-Winther (2014)"
+    url: "https://doi.org/10.1016/j.chb.2013.10.003"
+  - title: "Technoference: The Interference of Technology in Couple Relationships — McDaniel & Coyne"
+    url: "https://doi.org/10.1037/a0034932"
+  - title: "JAMA: Association Between Screen-Based Media Use and Brain White Matter Integrity in Preschool-Aged Children"
+    url: "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2754101"
+  - title: "DSM-5 Internet Gaming Disorder Criteria"
+    url: "https://www.psychiatry.org/patients-families/internet-gaming"
+  - title: "ICD-11 Gaming Disorder — World Health Organization"
+    url: "https://www.who.int/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder"
+  - title: "Al-Anon Family Groups — Support for Families"
+    url: "https://al-anon.org/"
+
+gamma_prompt: |
+  Create a deeply empathetic, visually warm slide deck titled "Someone I Love Is Lost in Screens." The tone must be gentle and validating — like sitting with a trusted counselor, not attending a lecture. Use calming, grounding colors (warm earth tones, soft blues, muted greens). Include visuals that show connection and disconnection — two people in the same room but worlds apart, a hand reaching out. Show the compensatory internet use model as a simple diagram. Include the supporter stress cycle. Represent diverse relationships — partners, parents, friends, siblings. Each module gets its own section. End with the "Three Things I Will Try" planning activity. Never show shame-based imagery. Show hope.

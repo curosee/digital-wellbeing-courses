@@ -1,0 +1,155 @@
+id: p1
+slug: why-is-my-kid-glued
+title: "Why Is My Kid Glued to That Screen?"
+subtitle: "Understanding Your Child's Digital World"
+persona: parent
+level: foundations
+estimated_duration_hours: 3
+goals:
+  - Understand why screens are so compelling for children at every age
+  - Learn to distinguish normal screen engagement from warning signs
+  - Recognize how your own screen habits shape your child's relationship with technology
+  - Map your family's current screen landscape without judgment
+
+intended_outcomes:
+  - Parents can explain the brain science behind screen attraction in simple terms
+  - Parents can identify the AAP's 5 C's of media use and apply them at home
+  - Parents have assessed their own screen habits and their impact on their children
+  - Parents have created a baseline map of their family's screen use patterns
+
+gamification:
+  badges:
+    - code: magnetic-screen
+      title: "The Magnetic Screen"
+      description: "Completed Module 1 — you now understand why screens pull kids in"
+      module: p1-m1
+    - code: signal-reader
+      title: "Signal Reader"
+      description: "Completed Module 2 — you can tell normal from concerning screen behavior"
+      module: p1-m2
+    - code: mirror-gazer
+      title: "Mirror Gazer"
+      description: "Completed Module 3 — you've examined your own screen habits honestly"
+      module: p1-m3
+    - code: family-mapper
+      title: "Family Mapper"
+      description: "Completed Module 4 — you've mapped your family's screen story"
+      module: p1-m4
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: p1-m1
+    title: "The Magnetic Screen"
+    subtitle: "Why your child can't look away"
+    is_free_without_login: true
+    estimated_minutes: 40
+    lessons:
+      - id: p1-m1-l1
+        title: "The Slot Machine in Their Pocket"
+        summary: "How apps use variable rewards to keep your child swiping"
+      - id: p1-m1-l2
+        title: "Dopamine Is Not the Enemy"
+        summary: "What the brain's reward system actually does — and when it tips out of balance"
+      - id: p1-m1-l3
+        title: "Built to Be Irresistible"
+        summary: "The design tricks that make screens so hard to put down"
+      - id: p1-m1-l4
+        title: "What Your Child Actually Gets from Screens"
+        summary: "The real needs screens meet — belonging, mastery, escape, and fun"
+    challenge:
+      id: p1-m1-ch1
+      title: "The Silent Observer"
+      description: "Spend 24 hours simply noticing when and why your child reaches for a screen — no judging, no intervening. Write down what you see."
+      badge: magnetic-screen
+
+  - id: p1-m2
+    title: "Is This Normal or Should I Worry?"
+    subtitle: "Reading the signals"
+    is_free_without_login: false
+    estimated_minutes: 40
+    lessons:
+      - id: p1-m2-l1
+        title: "The Spectrum of Screen Use"
+        summary: "From healthy engagement to warning territory — where does your child fall?"
+      - id: p1-m2-l2
+        title: "Red Flags vs. Tuesday Afternoon"
+        summary: "How to tell a bad day from a real pattern"
+      - id: p1-m2-l3
+        title: "Age Matters More Than You Think"
+        summary: "Why the same screen behavior means different things at 3, 8, 13, and 17"
+      - id: p1-m2-l4
+        title: "The 5 C's That Change Everything"
+        summary: "The AAP's framework for thinking about screen use — smarter than any timer"
+    challenge:
+      id: p1-m2-ch1
+      title: "The 5 C's Check-In"
+      description: "Apply the AAP's 5 C's framework (Child, Content, Calm, Crowding Out, Communication) to your child's most-used app or activity. Write a brief assessment for each C."
+      badge: signal-reader
+
+  - id: p1-m3
+    title: "The Mirror Effect"
+    subtitle: "How your own screen habits shape theirs"
+    is_free_without_login: false
+    estimated_minutes: 45
+    lessons:
+      - id: p1-m3-l1
+        title: "Do As I Say, Not As I Scroll"
+        summary: "Why your child copies your screen behavior more than your screen rules"
+      - id: p1-m3-l2
+        title: "The Phubbing Problem"
+        summary: "What happens when your child talks and you're looking at your phone"
+      - id: p1-m3-l3
+        title: "Your Own Dopamine Traps"
+        summary: "Recognizing the apps and habits that hook you — honestly"
+      - id: p1-m3-l4
+        title: "Modeling Without Performing"
+        summary: "How to build better habits without pretending to be perfect"
+    challenge:
+      id: p1-m3-ch1
+      title: "The Screen Time Mirror"
+      description: "Check your own screen time data for the past week. Write down your top 3 apps by time spent. Ask yourself: if my child used screens exactly like I do, would I be okay with that?"
+      badge: mirror-gazer
+
+  - id: p1-m4
+    title: "Your Family's Screen Story"
+    subtitle: "Mapping where you stand"
+    is_free_without_login: false
+    estimated_minutes: 40
+    lessons:
+      - id: p1-m4-l1
+        title: "Screen Moments, Not Screen Time"
+        summary: "Why tracking how and why matters more than counting minutes"
+      - id: p1-m4-l2
+        title: "The Family Screen Audit"
+        summary: "A gentle, no-shame inventory of every screen in your home"
+      - id: p1-m4-l3
+        title: "Finding the Bright Spots"
+        summary: "What your family already does well with screens — and how to do more of it"
+      - id: p1-m4-l4
+        title: "Your Starting Line"
+        summary: "Setting a compassionate baseline before making any changes"
+    challenge:
+      id: p1-m4-ch1
+      title: "The Family Screen Map"
+      description: "Create a simple map of your family's screen use: who uses what, when, where, and for what purpose. Include yourself. Share it with your partner or co-parent if applicable. This is your starting line — not a report card."
+      badge: family-mapper
+
+resources:
+  - title: "AAP's 5 C's of Media Use"
+    url: "https://www.aap.org/en/patient-care/media-and-children/center-of-excellence-on-social-media-and-youth-mental-health/5cs-of-media-use/"
+  - title: "Pew Research: How Teens and Parents Approach Screen Time (2024)"
+    url: "https://www.pewresearch.org/internet/2024/03/11/how-teens-and-parents-approach-screen-time/"
+  - title: "Devorah Heitner — Screenwise: Helping Kids Thrive in Their Digital World"
+    url: "https://devorahheitner.com/screenwise/"
+  - title: "Anna Lembke — Dopamine Nation"
+    url: "https://www.annalembke.com/dopamine-nation"
+  - title: "The Anxious Generation by Jonathan Haidt"
+    url: "https://www.anxiousgeneration.com/"
+  - title: "Common Sense Media — Family Media Agreement"
+    url: "https://www.commonsensemedia.org/family-media-agreement"
+
+gamma_prompt: |
+  Create a warm, visually engaging slide deck for parents titled "Why Is My Kid Glued to That Screen?" The tone should be supportive and non-judgmental — like a wise friend, not a lecturer. Use clean, modern design with calming colors (soft blues, greens, warm neutrals). Include simple brain science visuals (dopamine pathways, pleasure-pain balance), the AAP 5 C's framework as a memorable graphic, and reflective prompts for parents. Avoid fear-based imagery. Show diverse families. Each module gets its own section with clear transitions. End with the Family Screen Map activity as a practical takeaway.

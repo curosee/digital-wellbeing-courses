@@ -1,0 +1,189 @@
+id: h3
+slug: the-wise-ally
+title: "The Wise Ally"
+subtitle: "Advanced Support When Screen Use Becomes a Crisis"
+persona: supporter
+level: advanced
+estimated_duration_hours: 3
+goals:
+  - Recognize clinical red flags that indicate screen use has become a diagnosable disorder
+  - Learn how to suggest professional help without shaming the person you love
+  - Adapt your approach based on the specific relationship dynamic — partner, parent, friend, or sibling
+  - Address your own recovery and healing as a supporter
+  - Build sustainable, long-term support that does not destroy you in the process
+
+intended_outcomes:
+  - Supporters can identify DSM-5 Internet Gaming Disorder and ICD-11 Gaming Disorder criteria
+  - Supporters can initiate a conversation about therapy in a way that reduces resistance
+  - Supporters have a relationship-specific strategy tailored to their role
+  - Supporters have a personal recovery plan for their own wellbeing
+  - Supporters can sustain hope and connection over the long term without burnout
+
+gamification:
+  badges:
+    - code: clear-eyed
+      title: "Clear-Eyed"
+      description: "Completed Module 1 — you can recognize when screen use has crossed into clinical territory"
+      module: h3-m1
+    - code: bridge-builder
+      title: "Bridge Builder"
+      description: "Completed Module 2 — you can suggest professional help with skill and compassion"
+      module: h3-m2
+    - code: wise-navigator
+      title: "Wise Navigator"
+      description: "Completed Module 3 — you have a strategy tailored to your specific relationship"
+      module: h3-m3
+    - code: healed-healer
+      title: "Healed Healer"
+      description: "Completed Module 4 — you are actively tending to your own recovery"
+      module: h3-m4
+    - code: steady-light
+      title: "Steady Light"
+      description: "Completed Module 5 — you have built a sustainable, long-term support practice"
+      module: h3-m5
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: h3-m1
+    title: "Red Flags and Reality Checks"
+    subtitle: "When screen use crosses the line"
+    is_free_without_login: true
+    estimated_minutes: 35
+    lessons:
+      - id: h3-m1-l1
+        title: "Beyond Heavy Use — When It Becomes a Disorder"
+        summary: "Understanding the DSM-5 and ICD-11 criteria for gaming and internet use disorders"
+      - id: h3-m1-l2
+        title: "The Red Flags Checklist"
+        summary: "Compulsive use, withdrawal symptoms, neglected responsibilities, sleep disruption, and more"
+      - id: h3-m1-l3
+        title: "The Mental Health Connection"
+        summary: "Depression, anxiety, and the 2-3x increased risk in teens with compulsive screen use"
+      - id: h3-m1-l4
+        title: "Trust Your Gut, But Check the Facts"
+        summary: "Balancing your instinct with evidence-based assessment"
+    challenge:
+      id: h3-m1-ch1
+      title: "The Honest Assessment"
+      description: "Using the red flags checklist from this module, honestly assess the person you are worried about. Check each criterion. Count the ones that apply. This is not a diagnosis — only a professional can provide that. But it gives you a clear-eyed picture of where things stand, and it will help you decide what to do next."
+      badge: clear-eyed
+
+  - id: h3-m2
+    title: "The Professional Help Conversation"
+    subtitle: "Suggesting therapy without shaming"
+    is_free_without_login: false
+    estimated_minutes: 35
+    lessons:
+      - id: h3-m2-l1
+        title: "Why Therapy Works for Screen Overuse"
+        summary: "CBT, MI, and other evidence-based treatments — what the research shows"
+      - id: h3-m2-l2
+        title: "Overcoming the Stigma Barrier"
+        summary: "Why they might resist therapy and how to address that resistance gently"
+      - id: h3-m2-l3
+        title: "How to Bring It Up"
+        summary: "Scripts and strategies for suggesting professional help without triggering shame"
+      - id: h3-m2-l4
+        title: "Finding the Right Help"
+        summary: "What to look for in a therapist, what questions to ask, and where to start"
+    challenge:
+      id: h3-m2-ch1
+      title: "The Research and the Conversation"
+      description: "Research three therapists or counselors in your area who have experience with behavioral addictions, gaming disorder, or compulsive internet use. Write down their names, specialties, and contact information. Then draft a short, compassionate script for how you might suggest therapy using what you learned in this module. You do not have to use it yet. But having it ready changes the game."
+      badge: bridge-builder
+
+  - id: h3-m3
+    title: "Different Relationships, Different Approaches"
+    subtitle: "Partner vs parent vs friend strategies"
+    is_free_without_login: false
+    estimated_minutes: 40
+    lessons:
+      - id: h3-m3-l1
+        title: "When It Is Your Partner"
+        summary: "Navigating screen overuse within an intimate relationship"
+      - id: h3-m3-l2
+        title: "When It Is Your Child"
+        summary: "Balancing authority, autonomy, and collaboration with a young person"
+      - id: h3-m3-l3
+        title: "When It Is a Friend or Sibling"
+        summary: "Supporting someone you care about but do not live with or have authority over"
+      - id: h3-m3-l4
+        title: "When Multiple Relationships Are Affected"
+        summary: "What to do when screen overuse is impacting the whole family or social circle"
+    challenge:
+      id: h3-m3-ch1
+      title: "Your Relationship Strategy"
+      description: "Based on the specific relationship you have with the person you are worried about, write a one-page strategy. Include: the specific challenges of your relationship dynamic, the boundaries that are appropriate for your role, the communication approaches that fit, and the support you will seek for yourself. This is your personalized roadmap."
+      badge: wise-navigator
+
+  - id: h3-m4
+    title: "Your Own Recovery"
+    subtitle: "Healing from the toll of supporting someone"
+    is_free_without_login: false
+    estimated_minutes: 35
+    lessons:
+      - id: h3-m4-l1
+        title: "You Have Been Through Something Hard"
+        summary: "Naming the grief, anger, exhaustion, and loss you may be carrying"
+      - id: h3-m4-l2
+        title: "Secondary Trauma and Supporter Burnout"
+        summary: "Understanding the real psychological impact of long-term caregiving stress"
+      - id: h3-m4-l3
+        title: "Rebuilding Your Own Life"
+        summary: "Reclaiming the interests, relationships, and identity you may have set aside"
+      - id: h3-m4-l4
+        title: "Getting Help for Yourself"
+        summary: "Therapy, support groups, and community for the supporter"
+    challenge:
+      id: h3-m4-ch1
+      title: "Your Recovery Plan"
+      description: "Write a personal recovery plan. Include: one thing you will do for your physical health, one thing for your emotional health, one relationship you will invest in, and one interest or passion you will reclaim. Put dates on it. Share it with someone who will hold you accountable. Your recovery is not optional. It is essential."
+      badge: healed-healer
+
+  - id: h3-m5
+    title: "The Long Road"
+    subtitle: "Patience, hope, and sustainable support"
+    is_free_without_login: false
+    estimated_minutes: 35
+    lessons:
+      - id: h3-m5-l1
+        title: "Relapses Are Part of Recovery"
+        summary: "Why setbacks happen and how to respond without losing hope"
+      - id: h3-m5-l2
+        title: "Celebrating Small Wins"
+        summary: "Learning to notice and honor incremental progress"
+      - id: h3-m5-l3
+        title: "The Relationship After the Crisis"
+        summary: "What healing looks like for the relationship itself"
+      - id: h3-m5-l4
+        title: "You Were Always Enough"
+        summary: "A final reflection on what you have learned, who you have become, and what lies ahead"
+    challenge:
+      id: h3-m5-ch1
+      title: "The Letter to Yourself"
+      description: "Write a letter to yourself — the person who started this journey worried, exhausted, and unsure what to do. Tell yourself what you have learned. Tell yourself what you are proud of. Tell yourself what you will carry forward. Acknowledge how far you have come. Then read it out loud. You have done hard, brave, important work. This letter is your witness."
+      badge: steady-light
+
+resources:
+  - title: "American Psychiatric Association — DSM-5 Internet Gaming Disorder"
+    url: "https://www.psychiatry.org/patients-families/internet-gaming"
+  - title: "World Health Organization — ICD-11 Gaming Disorder"
+    url: "https://www.who.int/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder"
+  - title: "JAMA Pediatrics — Screen Time and Adolescent Mental Health"
+    url: "https://jamanetwork.com/journals/jamapediatrics"
+  - title: "CBT for Internet Addiction — Young, K. S. (2011)"
+    url: "https://doi.org/10.1089/cyber.2010.0489"
+  - title: "SMART Recovery Family & Friends"
+    url: "https://www.smartrecovery.org/family/"
+  - title: "Psychology Today — Find a Therapist (filter by specialty)"
+    url: "https://www.psychologytoday.com/us/therapists"
+  - title: "Game Quitters — Support for Gaming Disorder"
+    url: "https://gamequitters.com/"
+  - title: "SAMHSA National Helpline"
+    url: "https://www.samhsa.gov/find-help/national-helpline"
+
+gamma_prompt: |
+  Create a serious but hopeful slide deck titled "The Wise Ally" for people supporting a loved one in crisis-level screen overuse. The tone should be that of a compassionate clinician — clear, honest, grounding, and warm. Use muted, dignified colors (deep navy, warm gray, soft gold accents). Include the DSM-5 and ICD-11 criteria as clean, readable checklists. Show the CBT model for internet addiction as a simple diagram. Include relationship-specific strategy templates for partner, parent, friend, and sibling dynamics. Dedicate a section to the supporter's own recovery with self-care visuals. Show diverse people and relationships. End with the "Letter to Yourself" reflection as a powerful closing. The deck should feel like a trusted guide for the hardest chapter of the journey — honest about the difficulty, unwavering in its hope.

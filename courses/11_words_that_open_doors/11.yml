@@ -1,0 +1,185 @@
+id: h2
+slug: words-that-open-doors
+title: "Words That Open Doors"
+subtitle: "Having the Conversations That Actually Help"
+persona: supporter
+level: intermediate
+estimated_duration_hours: 3
+goals:
+  - Learn to prepare emotionally before initiating conversations about screen use
+  - Master conversation openers that reduce defensiveness
+  - Develop advanced listening skills rooted in Motivational Interviewing
+  - Understand the difference between boundaries and control
+  - Navigate situations where the other person is not ready to change
+
+intended_outcomes:
+  - Supporters can use the OARS technique from Motivational Interviewing in real conversations
+  - Supporters can start a conversation about screen use without triggering a fight
+  - Supporters can set clear, compassionate boundaries that protect their own wellbeing
+  - Supporters can maintain hope and connection even when the other person resists change
+  - Supporters have practiced at least one real conversation using the skills taught
+
+gamification:
+  badges:
+    - code: grounded-voice
+      title: "Grounded Voice"
+      description: "Completed Module 1 — you know how to prepare yourself before a difficult conversation"
+      module: h2-m1
+    - code: door-opener
+      title: "Door Opener"
+      description: "Completed Module 2 — you can start conversations that invite rather than attack"
+      module: h2-m2
+    - code: deep-listener
+      title: "Deep Listener"
+      description: "Completed Module 3 — you have practiced reflective listening for hard topics"
+      module: h2-m3
+    - code: boundary-keeper
+      title: "Boundary Keeper"
+      description: "Completed Module 4 — you can set boundaries without losing connection"
+      module: h2-m4
+    - code: patient-heart
+      title: "Patient Heart"
+      description: "Completed Module 5 — you know how to stay present when change is slow"
+      module: h2-m5
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: h2-m1
+    title: "Before You Speak"
+    subtitle: "Preparing yourself for a real conversation"
+    is_free_without_login: true
+    estimated_minutes: 35
+    lessons:
+      - id: h2-m1-l1
+        title: "Why Most Conversations Go Wrong"
+        summary: "The common mistakes that turn conversations into confrontations"
+      - id: h2-m1-l2
+        title: "Check Your Emotional Weather"
+        summary: "How to know if you are ready to talk — or if you need to wait"
+      - id: h2-m1-l3
+        title: "What Do You Actually Want?"
+        summary: "Getting clear on your real goal before you open your mouth"
+      - id: h2-m1-l4
+        title: "The Mindset Shift"
+        summary: "Moving from 'I need to fix them' to 'I want to understand and connect'"
+    challenge:
+      id: h2-m1-ch1
+      title: "The Pre-Conversation Check-In"
+      description: "Before your next conversation about screen use, pause and answer these questions in writing: What am I feeling right now? What is my real goal? Am I trying to control or to connect? Am I emotionally ready, or do I need to wait? Do not have the conversation until you can answer these honestly."
+      badge: grounded-voice
+
+  - id: h2-m2
+    title: "The Art of the Opener"
+    subtitle: "Starting without starting a fight"
+    is_free_without_login: false
+    estimated_minutes: 35
+    lessons:
+      - id: h2-m2-l1
+        title: "The First Thirty Seconds"
+        summary: "Why the opening of a conversation determines everything that follows"
+      - id: h2-m2-l2
+        title: "Lead with Curiosity, Not Criticism"
+        summary: "Open questions that invite sharing instead of defensiveness"
+      - id: h2-m2-l3
+        title: "The Power of 'I' Statements"
+        summary: "Speaking from your own experience without accusing"
+      - id: h2-m2-l4
+        title: "Timing, Setting, and Tone"
+        summary: "Practical tips for choosing the right moment and place"
+    challenge:
+      id: h2-m2-ch1
+      title: "Your Opening Line"
+      description: "Write three different ways you could open a conversation about screen use. Each one should lead with curiosity or an 'I' statement. Practice saying them out loud. Choose the one that feels most natural and genuine. You do not have to use it yet — just have it ready."
+      badge: door-opener
+
+  - id: h2-m3
+    title: "Listen Like You Mean It"
+    subtitle: "Advanced listening for hard topics"
+    is_free_without_login: false
+    estimated_minutes: 40
+    lessons:
+      - id: h2-m3-l1
+        title: "OARS — The Listening Framework That Changes Everything"
+        summary: "Open questions, Affirmations, Reflective listening, and Summarizing from Motivational Interviewing"
+      - id: h2-m3-l2
+        title: "Reflective Listening in Practice"
+        summary: "How to reflect back what someone says so they feel truly heard"
+      - id: h2-m3-l3
+        title: "Listening for the Need Behind the Words"
+        summary: "Hearing what they are really saying — even when they cannot say it"
+      - id: h2-m3-l4
+        title: "What to Do When They Shut Down"
+        summary: "Staying present and calm when they withdraw, get angry, or refuse to talk"
+    challenge:
+      id: h2-m3-ch1
+      title: "The Listening Practice"
+      description: "Have a five-minute conversation with anyone — the person you are worried about, a friend, a family member — where your only goal is to listen using OARS. Ask open questions. Affirm something they share. Reflect back what you hear. Summarize at the end. Write down what happened and how it felt for both of you."
+      badge: deep-listener
+
+  - id: h2-m4
+    title: "Boundaries Without Battles"
+    subtitle: "Protecting yourself while staying connected"
+    is_free_without_login: false
+    estimated_minutes: 40
+    lessons:
+      - id: h2-m4-l1
+        title: "Boundaries Are Not Punishments"
+        summary: "Understanding what a boundary really is — and what it is not"
+      - id: h2-m4-l2
+        title: "The Anatomy of a Good Boundary"
+        summary: "How to set a boundary that is clear, specific, and about your own needs"
+      - id: h2-m4-l3
+        title: "Holding the Line with Compassion"
+        summary: "What to do when they test your boundaries — because they will"
+      - id: h2-m4-l4
+        title: "Boundaries in Different Relationships"
+        summary: "How boundary-setting changes when the person is your partner, child, or friend"
+    challenge:
+      id: h2-m4-ch1
+      title: "One Boundary This Week"
+      description: "Identify one boundary you need to set. Write it down using this format: 'When [specific situation], I will [specific action I will take for myself].' For example: 'When screens are being used during our dinner time, I will eat my meal and then go do something I enjoy.' Share it with a trusted person. Then hold it for one week."
+      badge: boundary-keeper
+
+  - id: h2-m5
+    title: "When They're Not Ready"
+    subtitle: "What to do when nothing seems to work"
+    is_free_without_login: false
+    estimated_minutes: 35
+    lessons:
+      - id: h2-m5-l1
+        title: "The Stages of Change"
+        summary: "Understanding that readiness for change is a process, not an event"
+      - id: h2-m5-l2
+        title: "Planting Seeds You May Never See Grow"
+        summary: "Why your words and actions matter even when there is no visible result"
+      - id: h2-m5-l3
+        title: "Protecting Hope Without Enabling"
+        summary: "The delicate balance between patience and acceptance"
+      - id: h2-m5-l4
+        title: "Knowing When You Have Done Enough"
+        summary: "Giving yourself permission to step back without giving up"
+    challenge:
+      id: h2-m5-ch1
+      title: "The Letter You Do Not Send"
+      description: "Write a letter to the person you are worried about. Say everything — your love, your fear, your frustration, your hope. Be completely honest. Then put it away. You do not send it. This letter is for you. It is a way of saying what needs to be said without requiring them to hear it. Keep it somewhere safe. You may choose to share it one day, or you may not."
+      badge: patient-heart
+
+resources:
+  - title: "Miller, W. R., & Rollnick, S. — Motivational Interviewing: Helping People Change (3rd Edition)"
+    url: "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781609182274"
+  - title: "Greene, R. W. — Raising Human Beings: Creating a Collaborative Partnership with Your Child"
+    url: "https://www.simonandschuster.com/books/Raising-Human-Beings/Ross-W-Greene/9781476723761"
+  - title: "Prochaska & DiClemente — Stages of Change Model"
+    url: "https://www.prochange.com/transtheoretical-model-of-behavior-change"
+  - title: "Gottman Institute — Research on Relationship Communication"
+    url: "https://www.gottman.com/blog/"
+  - title: "SMART Recovery Family & Friends"
+    url: "https://www.smartrecovery.org/family/"
+  - title: "Motivational Interviewing Network of Trainers (MINT)"
+    url: "https://motivationalinterviewing.org/"
+
+gamma_prompt: |
+  Create a warm, practical slide deck titled "Words That Open Doors" for people who need to have difficult conversations about a loved one's screen use. The tone should be like a skilled therapist coaching you before a hard conversation — calm, specific, empowering. Use warm, grounding colors (deep blues, warm ambers, soft creams). Include visual frameworks for OARS, the Stages of Change model, and boundary-setting. Show diverse relationship types in imagery — partners, parents with teens, friends, siblings. Include speech bubble examples of what to say and what not to say. Each module should feel like a practical workshop. End with the boundary-setting template as a take-home tool. Avoid any imagery that suggests conflict or blame.

@@ -1,0 +1,191 @@
+id: "y3"
+slug: "be-the-change"
+title: "Be the Change"
+subtitle: "Leading Digital Wellness in Your World"
+persona: "youth"
+level: "advanced"
+estimated_duration_hours: 3
+
+goals:
+  - "Understand the systemic design and business models behind tech addiction"
+  - "Develop advanced self-awareness around emotional triggers and digital habits"
+  - "Learn how to support friends with screen struggles without being preachy"
+  - "Create a personal digital philosophy and boundaries that reflect your values"
+  - "Become a digital wellness advocate in your community"
+
+intended_outcomes:
+  - "You can explain how attention economies and persuasive design create mass dependency"
+  - "You can identify your personal emotional triggers and respond with intention"
+  - "You have practical peer support skills for helping friends with screen habits"
+  - "You have a written personal digital philosophy that guides your technology use"
+  - "You have taken at least one concrete action to promote digital wellness in your community"
+
+gamification:
+  badges:
+    - module_id: "y3-m1"
+      code: "system-thinker"
+      label: "System Thinker"
+      description: "Understood the business models and design systems behind tech addiction"
+    - module_id: "y3-m2"
+      code: "inner-observer"
+      label: "Inner Observer"
+      description: "Developed advanced self-awareness around emotional triggers and screen patterns"
+    - module_id: "y3-m3"
+      code: "wise-friend"
+      label: "Wise Friend"
+      description: "Learned peer support skills for helping friends with screen struggles"
+    - module_id: "y3-m4"
+      code: "digital-philosopher"
+      label: "Digital Philosopher"
+      description: "Created a personal digital philosophy and boundaries that align with your values"
+    - module_id: "y3-m5"
+      code: "change-maker"
+      label: "Change Maker"
+      description: "Took action as a digital wellness advocate in your community"
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: "y3-m1"
+    index: 1
+    title: "The System Behind the Screen"
+    is_free_without_login: true
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "How tech companies design for addiction. The business models, the psychology, and the systems that keep billions of people hooked."
+    lessons:
+      - id: "y3-m1-l1"
+        title: "Beyond Design Tricks: The Business Model"
+        summary: "Attention economy 2.0. How the entire tech industry is structured around capturing and monetizing your focus."
+      - id: "y3-m1-l2"
+        title: "Persuasive Design at Scale"
+        summary: "B.J. Fogg's behavior model, dark patterns, and the science of making products people cannot put down."
+      - id: "y3-m1-l3"
+        title: "The Algorithm Knows You"
+        summary: "How recommendation algorithms learn your vulnerabilities and exploit them to maximize engagement."
+      - id: "y3-m1-l4"
+        title: "Who Is Pushing Back"
+        summary: "From the Center for Humane Technology to Emma Lembke's LOG OFF. The growing movement against designed addiction."
+    challenge:
+      id: "y3-m1-ch1"
+      title: "The System Map"
+      description: "Choose one app you use frequently. Map its entire engagement system: business model, revenue source, design hooks, algorithm behavior, and the user behaviors it incentivizes. Present your analysis to a friend or write it up in detail."
+
+  - id: "y3-m2"
+    index: 2
+    title: "Know Yourself"
+    is_free_without_login: false
+    estimated_time_minutes: 40
+    xp: 50
+    summary: "Advanced self-awareness and emotional triggers. Going deeper into why you reach for your phone and what you are really looking for."
+    lessons:
+      - id: "y3-m2-l1"
+        title: "Emotional Triggers: The Deep Dive"
+        summary: "Beyond boredom and FOMO. Identifying the specific emotions that drive your screen habits at a granular level."
+      - id: "y3-m2-l2"
+        title: "The Needs Beneath the Screen"
+        summary: "Every screen habit meets a real need. Connection, competence, escape, identity. Understanding the need helps you meet it better."
+      - id: "y3-m2-l3"
+        title: "Mindfulness Without the Woo"
+        summary: "Practical awareness techniques for catching yourself in autopilot and making conscious choices about your attention."
+      - id: "y3-m2-l4"
+        title: "Your Relationship Timeline with Tech"
+        summary: "Looking at how your relationship with technology has evolved over your life. Understanding your story helps you write the next chapter."
+    challenge:
+      id: "y3-m2-ch1"
+      title: "The Trigger Journal"
+      description: "Keep a detailed trigger journal for 3 days. Every time you reach for your phone, write down the emotion, the need, the context, and what happened next. At the end, identify your top 3 emotional triggers and write a plan for meeting those needs differently."
+
+  - id: "y3-m3"
+    index: 3
+    title: "Help a Friend Without Being Annoying"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "Peer support that works. How to have real conversations about screen habits without lecturing, judging, or losing your friendship."
+    lessons:
+      - id: "y3-m3-l1"
+        title: "Why Lecturing Never Works"
+        summary: "The psychology of why telling someone what to do backfires. Understanding reactance and how to avoid triggering it."
+      - id: "y3-m3-l2"
+        title: "The Art of the Right Question"
+        summary: "Motivational interviewing basics for peers. How to ask questions that help someone think differently without pushing them."
+      - id: "y3-m3-l3"
+        title: "Sharing Your Story"
+        summary: "The power of personal experience. How to talk about your own journey in a way that opens doors instead of closing them."
+      - id: "y3-m3-l4"
+        title: "When to Step Back and When to Step Up"
+        summary: "Knowing the difference between someone who needs a gentle nudge and someone who needs professional help. And how to handle both."
+    challenge:
+      id: "y3-m3-ch1"
+      title: "The Support Conversation"
+      description: "Have a genuine conversation with one friend about screen habits. Do not lecture. Use the techniques from this module: ask questions, share your experience, listen. Afterward, write a reflection about what happened and what you learned."
+
+  - id: "y3-m4"
+    index: 4
+    title: "Your Digital Boundaries"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "Creating a personal digital philosophy. Defining who you want to be with technology and building boundaries that reflect your values."
+    lessons:
+      - id: "y3-m4-l1"
+        title: "What Do You Actually Value"
+        summary: "Clarifying your personal values and evaluating how your technology use aligns or conflicts with them."
+      - id: "y3-m4-l2"
+        title: "Writing Your Digital Philosophy"
+        summary: "A personal manifesto for technology use. Not rules imposed on you but principles you choose for yourself."
+      - id: "y3-m4-l3"
+        title: "Advanced Boundary Strategies"
+        summary: "Digital sabbaths, phone-free zones, social media seasons, and other strategies for people who are serious about change."
+      - id: "y3-m4-l4"
+        title: "Holding Your Boundaries When No One Else Does"
+        summary: "How to maintain your digital philosophy when friends, culture, and platforms all push in the other direction."
+    challenge:
+      id: "y3-m4-ch1"
+      title: "Write Your Digital Philosophy"
+      description: "Write a personal digital philosophy of 200-500 words. Include your values, your boundaries, your intentions, and why they matter to you. Share it with at least one person. Revisit it in 30 days to see how it is holding up."
+
+  - id: "y3-m5"
+    index: 5
+    title: "Lead the Movement"
+    is_free_without_login: false
+    estimated_time_minutes: 35
+    xp: 50
+    summary: "Becoming a digital wellness advocate. How to create change in your school, community, and beyond without being preachy."
+    lessons:
+      - id: "y3-m5-l1"
+        title: "From Personal to Public"
+        summary: "Your personal journey matters to others. How to turn your experience into something that helps people beyond yourself."
+      - id: "y3-m5-l2"
+        title: "Starting Small and Real"
+        summary: "A phone-free lunch table, a digital wellness club, a conversation series. Practical ways to create change without being overwhelming."
+      - id: "y3-m5-l3"
+        title: "Using Your Voice"
+        summary: "Social media as a tool for change. How to advocate for digital wellness online without being hypocritical about it."
+      - id: "y3-m5-l4"
+        title: "The Long Game"
+        summary: "Sustainable advocacy. Taking care of yourself while trying to change the world. Why this movement needs you for the long haul."
+    challenge:
+      id: "y3-m5-ch1"
+      title: "Your First Act of Advocacy"
+      description: "Take one concrete action to promote digital wellness in your community. Start a phone-free lunch table. Have a conversation with your school counselor about digital wellness programming. Create a social media post sharing what you have learned. Write about your experience and its impact."
+
+resources:
+  - title: "LOG OFF movement (founded by Emma Lembke)"
+    url: "https://www.logoffmovement.org"
+  - title: "Center for Humane Technology"
+    url: "https://www.humanetech.com"
+  - title: "The Social Dilemma (documentary)"
+    url: "https://www.thesocialdilemma.com"
+  - title: "Design for Wellbeing (Stanford d.school)"
+    url: "https://dschool.stanford.edu"
+  - title: "Crisis Text Line — Text HOME to 741741"
+    url: "https://www.crisistextline.org"
+  - title: "Pew Research Center — Teens, Social Media and Technology"
+    url: "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-and-technology-2024/"
+
+gamma_prompt: >
+  Create a visually striking presentation for teens and young adults (ages 13-25) about becoming digital wellness leaders and advocates. Bold, modern, activist-inspired design. Cover the systemic design behind tech addiction, advanced self-awareness techniques, peer support strategies, personal digital philosophy creation, and community advocacy. Feature real changemakers like Emma Lembke and organizations like the Center for Humane Technology. Tone should be empowering and action-oriented — this is about leading a movement, not just managing a personal habit. Include practical frameworks for advocacy and peer support. No preaching. Just tools, truth, and the power to make a difference.

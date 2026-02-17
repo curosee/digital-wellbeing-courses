@@ -1,0 +1,200 @@
+id: p3
+slug: raising-humans-digital-world
+title: "Raising Humans in a Digital World"
+subtitle: "From Screen Police to Digital Mentor"
+persona: parent
+level: advanced
+estimated_duration_hours: 4
+goals:
+  - Understand how apps, algorithms, and AI target children and adolescents
+  - Master Motivational Interviewing and Collaborative Problem-Solving techniques for digital conversations
+  - Navigate the most serious digital risks — gaming addiction, social media harm, cyberbullying, and sexting
+  - Help your child build internal self-regulation skills that outlast any parental rule
+  - Develop a long-term digital mentoring approach that evolves with your child
+
+intended_outcomes:
+  - Parents can explain how algorithms and persuasive design work to their children
+  - Parents can use OARS (Open questions, Affirmations, Reflections, Summaries) in screen-related conversations
+  - Parents can recognize and respond to gaming disorder, social media harm, cyberbullying, and sexting
+  - Parents have shifted from rule enforcement to cultivating their child's internal digital compass
+  - Parents have a long-term vision for raising a digitally wise young adult
+
+gamification:
+  badges:
+    - code: algorithm-decoder
+      title: "Algorithm Decoder"
+      description: "Completed Module 1 — you understand how apps target your child"
+      module: p3-m1
+    - code: conversation-artist
+      title: "Conversation Artist"
+      description: "Completed Module 2 — you can have digital conversations that actually work"
+      module: p3-m2
+    - code: steady-hand
+      title: "Steady Hand"
+      description: "Completed Module 3 — you are prepared for the big scary stuff"
+      module: p3-m3
+    - code: compass-builder
+      title: "Compass Builder"
+      description: "Completed Module 4 — you are building your child's internal digital compass"
+      module: p3-m4
+    - code: digital-mentor
+      title: "Digital Mentor"
+      description: "Completed Module 5 — you are playing the long game with digital wisdom"
+      module: p3-m5
+  xp_rules:
+    lesson_read: 5
+    exercise_completed: 10
+    challenge_completed: 15
+
+modules:
+  - id: p3-m1
+    title: "Behind the Screen"
+    subtitle: "How apps, algorithms, and AI target your child"
+    is_free_without_login: true
+    estimated_minutes: 50
+    lessons:
+      - id: p3-m1-l1
+        title: "The Algorithm Knows Your Kid"
+        summary: "How recommendation engines build a profile of your child in minutes"
+      - id: p3-m1-l2
+        title: "Designed for Compulsion"
+        summary: "The Hook Model, dark patterns, and why your child's willpower is outmatched"
+      - id: p3-m1-l3
+        title: "TikTok Brain"
+        summary: "What short-form video does to attention, patience, and the ability to think deeply"
+      - id: p3-m1-l4
+        title: "The Data Trail"
+        summary: "What your child's digital footprint reveals — and who is looking"
+      - id: p3-m1-l5
+        title: "Teaching Your Child to See the Machine"
+        summary: "How to make algorithms visible and understandable for kids at every age"
+    challenge:
+      id: p3-m1-ch1
+      title: "The Algorithm Experiment"
+      description: "Create a new account on your child's most-used platform (or use incognito mode). Spend 15 minutes interacting with content similar to what your child watches. Observe how quickly the algorithm learns your preferences and narrows your feed. Write down what you notice. If age-appropriate, do this experiment together with your child."
+      badge: algorithm-decoder
+
+  - id: p3-m2
+    title: "Digital Conversations That Actually Work"
+    subtitle: "Motivational Interviewing and Collaborative Problem-Solving with your child"
+    is_free_without_login: false
+    estimated_minutes: 50
+    lessons:
+      - id: p3-m2-l1
+        title: "Why Lectures Backfire"
+        summary: "The psychology of reactance — and why telling teens what to do makes them do the opposite"
+      - id: p3-m2-l2
+        title: "The OARS Technique"
+        summary: "Open questions, Affirmations, Reflections, and Summaries — the toolkit that changes conversations"
+      - id: p3-m2-l3
+        title: "Conversations by Age"
+        summary: "What to say and how to say it at 5, 10, 13, and 17"
+      - id: p3-m2-l4
+        title: "The Repair Conversation"
+        summary: "How to come back after a screen fight that went wrong"
+      - id: p3-m2-l5
+        title: "From Interrogation to Invitation"
+        summary: "Turning 'What were you doing on your phone?' into a conversation they want to have"
+    challenge:
+      id: p3-m2-ch1
+      title: "The OARS Conversation"
+      description: "Have one screen-related conversation with your child this week using only OARS techniques — open questions, affirmations, reflections, and summaries. No lectures, no advice, no fixing. Just listen, reflect, and affirm. Write down how it went and what you learned."
+      badge: conversation-artist
+
+  - id: p3-m3
+    title: "The Big Scary Stuff"
+    subtitle: "Gaming addiction, social media harm, cyberbullying, and sexting"
+    is_free_without_login: false
+    estimated_minutes: 50
+    lessons:
+      - id: p3-m3-l1
+        title: "When Gaming Crosses the Line"
+        summary: "Recognizing the difference between passionate gaming and gaming disorder"
+      - id: p3-m3-l2
+        title: "Social Media and the Wounded Self"
+        summary: "Body image, comparison, and the silent toll on your child's self-worth"
+      - id: p3-m3-l3
+        title: "Cyberbullying: What Parents Miss"
+        summary: "The scope of the problem and why your child probably will not tell you"
+      - id: p3-m3-l4
+        title: "Sexting, Nudes, and Digital Consent"
+        summary: "Having the conversation every parent dreads — because your child needs you to"
+      - id: p3-m3-l5
+        title: "When to Get Professional Help"
+        summary: "Recognizing when self-help is not enough — and where to turn"
+    challenge:
+      id: p3-m3-ch1
+      title: "The Safety Conversation"
+      description: "Choose one topic from this module — gaming, social media harm, cyberbullying, or sexting — and have an age-appropriate conversation with your child about it. Use the OARS skills from Module 2. Focus on listening and understanding, not lecturing. Write down what you learned about your child's experience."
+      badge: steady-hand
+
+  - id: p3-m4
+    title: "Building a Child Who Can Self-Regulate"
+    subtitle: "From rules to internal compass"
+    is_free_without_login: false
+    estimated_minutes: 45
+    lessons:
+      - id: p3-m4-l1
+        title: "The Goal Is Not Obedience"
+        summary: "Why compliance without understanding fails the moment you are not watching"
+      - id: p3-m4-l2
+        title: "Building the Braking System"
+        summary: "How to strengthen your child's prefrontal cortex for real-world self-regulation"
+      - id: p3-m4-l3
+        title: "Teaching Decision-Making, Not Just Following Rules"
+        summary: "The questions your child needs to learn to ask themselves"
+      - id: p3-m4-l4
+        title: "Graduated Freedom"
+        summary: "A practical framework for handing over more digital autonomy as your child matures"
+    challenge:
+      id: p3-m4-ch1
+      title: "The Freedom Experiment"
+      description: "Choose one area where you currently control your child's screen use. Hand over responsibility for it for one week — with a clear check-in at the end. Discuss the results together. Was your child ready for this freedom? What did both of you learn?"
+      badge: compass-builder
+
+  - id: p3-m5
+    title: "The Long Game"
+    subtitle: "Digital wisdom for life"
+    is_free_without_login: false
+    estimated_minutes: 45
+    lessons:
+      - id: p3-m5-l1
+        title: "The Mentor Mindset"
+        summary: "Becoming the person your child comes to — not runs from — when things go wrong online"
+      - id: p3-m5-l2
+        title: "Preparing for Launch"
+        summary: "Getting your child ready for the moment they manage their own digital life completely"
+      - id: p3-m5-l3
+        title: "Staying Connected in a Digital World"
+        summary: "How to keep your relationship strong through the teen years and beyond"
+      - id: p3-m5-l4
+        title: "Your Legacy of Digital Wisdom"
+        summary: "The values, skills, and habits your child will carry into adulthood"
+    challenge:
+      id: p3-m5-ch1
+      title: "The Letter to Your Future Self"
+      description: "Write a letter to yourself to open in one year. Include: where your family is today with screens, what you have learned through these courses, what you are most proud of, and what you hope will be true a year from now. Seal it, date it, and put it somewhere safe."
+      badge: digital-mentor
+
+resources:
+  - title: "Center for Humane Technology — The CHT Perspective"
+    url: "https://www.humanetech.com/the-cht-perspective"
+  - title: "Ross Greene — Lives in the Balance (Collaborative & Proactive Solutions)"
+    url: "https://www.livesinthebalance.org/"
+  - title: "Motivational Interviewing Network of Trainers (MINT)"
+    url: "https://motivationalinterviewing.org/"
+  - title: "Jonathan Haidt — The Anxious Generation"
+    url: "https://www.anxiousgeneration.com/"
+  - title: "Devorah Heitner — Growing Up in Public"
+    url: "https://devorahheitner.com/"
+  - title: "Emily Weinstein & Carrie James — Behind Their Screens"
+    url: "https://www.behindtheirscreens.com/"
+  - title: "StopBullying.gov — Cyberbullying Resources"
+    url: "https://www.stopbullying.gov/cyberbullying"
+  - title: "Common Sense Media — Parent Guides by Age"
+    url: "https://www.commonsensemedia.org/articles"
+  - title: "WHO — Gaming Disorder Fact Sheet"
+    url: "https://www.who.int/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder"
+
+gamma_prompt: |
+  Create a deep, thoughtful slide deck for parents titled "Raising Humans in a Digital World — From Screen Police to Digital Mentor." The tone is wise, empathetic, and empowering. Use sophisticated, clean design with deeper, richer colors (navy, forest green, warm amber). Include visuals of the Hook Model, OARS conversation technique, a graduated freedom framework, and the mentor vs. monitor spectrum. Show diverse families navigating real situations. Include infographics for gaming disorder criteria, cyberbullying statistics, and the self-regulation development timeline. End with the mentor mindset and long-game vision. This is a mastery-level course — the design should feel elevated and confident.
